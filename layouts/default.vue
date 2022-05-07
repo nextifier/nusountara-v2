@@ -4,11 +4,7 @@
     class="min-h-screen font-sans antialiased flex flex-col text-sm md:text-base bg-black text-gray-300 overflow-x-hidden"
   >
     <Navbar />
-    <Nuxt
-      class="flex-auto mt-16 lg:mt-[80px]"
-      keep-alive
-      :keep-alive-props="{ exclude: ['pages/index.vue'] }"
-    />
+    <Nuxt class="flex-auto mt-16 lg:mt-[80px]" />
     <!-- <Footer /> -->
   </div>
 </template>
