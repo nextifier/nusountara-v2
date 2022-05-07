@@ -4,9 +4,10 @@
       <video
         src="/media/bg-hero-video.mp4"
         poster="/media/bg-hero-thumb.jpg"
+        id="bg-hero-video"
         class="w-full h-full object-cover"
-        autoplay
         muted
+        autoplay
         loop
       ></video>
     </div>
@@ -55,7 +56,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  activated() {
+    let video = document.querySelector("#bg-hero-video");
+    video.play();
+  },
+};
 </script>
 
 <style></style>
