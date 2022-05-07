@@ -1,0 +1,54 @@
+#toast-container {
+  @apply block fixed;
+  z-index: 10000;
+}
+
+@media screen and (max-width: 767px) {
+  #toast-container {
+    @apply min-w-full bottom-0 px-6 py-4;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #toast-container {
+    left: 5%;
+    bottom: 7%;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #toast-container {
+    top: 10%;
+    right: 7%;
+    max-width: 86%;
+  }
+}
+
+.toast {
+  min-height: 64px;
+  @apply w-full sm:w-auto rounded-lg mt-3 relative max-w-full h-auto leading-normal py-4 px-7 flex items-center justify-between cursor-default shadow-xl text-sm;
+}
+
+.toast .toast-action {
+  color: #eeff41;
+  font-weight: 600;
+  margin-right: -25px;
+  margin-left: 3rem;
+}
+
+.toast-success {
+  @apply bg-green-700/90 backdrop-blur-lg text-white;
+}
+
+.toast-error {
+  @apply bg-rose-700/90 backdrop-blur-lg text-white;
+}
+
+.gradient-success {
+  @apply bg-gradient-to-br from-green-600 to-green-700 text-white;
+}
+
+.gradient-error {
+  @apply bg-gradient-to-br from-red-800 to-red-900 text-white;
+}

@@ -1,0 +1,8 @@
+.toggle-bg:after {
+  content: "";
+  @apply absolute top-1 left-1 bg-white border border-slate-300 rounded-full h-5 w-5 transition-all shadow;
+}
+
+input:checked + .toggle-bg {
+  @apply bg-gradient-to-r from-orange-500 to-orange-600 after:translate-x-full after:border-white;
+}

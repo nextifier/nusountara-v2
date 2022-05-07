@@ -1,0 +1,68 @@
+@font-face {
+  font-family: PlusJakartaSans;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(~assets/fonts/PlusJakartaSans-Regular.woff2) format("woff2"),
+    url(~assets/fonts/PlusJakartaSans-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(~assets/fonts/PlusJakartaSans-Bold.woff2) format("woff2"),
+    url(~assets/fonts/PlusJakartaSans-Bold.woff) format("woff");
+}
+
+*::selection {
+  @apply bg-primary text-white;
+}
+
+a,
+button,
+label,
+li {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-tap-highlight {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Nuxt Page Transition - Start */
+// .page-enter-active,
+// .page-leave-active {
+//   transition: all 0.2s ease-in-out;
+// }
+// .page-enter,
+// .page-leave-to {
+//   opacity: 0;
+// }
+
+// .page-enter {
+//   transform: translate3d(0, 60px, 0);
+// }
+
+// .page-leave-to {
+//   transform: translate3d(0, -60px, 0);
+// }
+
+// Custom Scrollbar - Start
+::-webkit-scrollbar,
+.custom-scrollbar::-webkit-scrollbar {
+  @apply h-3 w-3;
+}
+
+::-webkit-scrollbar-track,
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb,
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gray-700/80 transition-colors hover:bg-gray-700;
+}
+// Custom Scrollbar - End

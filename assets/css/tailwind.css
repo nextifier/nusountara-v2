@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Smooth Corners - Start */
+
+    @supports (mask-image: paint(smooth-corners)) {
+      .smooth-corners {
+        mask-image: paint(smooth-corners);
+        -webkit-mask-image: paint(smooth-corners);
+      }
+
+      .smooth-corners > a {
+        @apply z-20;
+      }
+    }
+
+    .sc-1 {
+      --smooth-corners: 1;
+    }
+
+    .sc-2 {
+      --smooth-corners: 2;
+    }
+
+    .sc-3 {
+      --smooth-corners: 3;
+    }
+
+    .sc-4 {
+      --smooth-corners: 4;
+    }
+
+    .sc-5 {
+      --smooth-corners: 5;
+    }
+
+    .sc-6 {
+      --smooth-corners: 6;
+    }
+
+    .sc-7 {
+      --smooth-corners: 7;
+    }
+
+    .sc-8 {
+      --smooth-corners: 8;
+    }
+
+    .sc-9 {
+      --smooth-corners: 9;
+    }
+
+    .sc-10 {
+      --smooth-corners: 10;
+    }
+
+    .sc-11 {
+      --smooth-corners: 11;
+    }
+
+    .sc-12 {
+      --smooth-corners: 12;
+    }
+
+    .sc-12-4 {
+      --smooth-corners: 12, 4;
+    }
+
+    .sc-14 {
+      --smooth-corners: 14;
+    }
+
+    .sc-14-4 {
+      --smooth-corners: 14, 4;
+    }
+
+    .sc-16 {
+      --smooth-corners: 16;
+    }
+
+    .sc-16-4 {
+      --smooth-corners: 16, 4;
+    }
+
+    /* Smooth Corners - End */
+  }
+}
