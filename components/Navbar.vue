@@ -12,16 +12,8 @@
           class="brand-logo flex items-center gap-x-2.5 sm:gap-x-3 flex-shrink-0"
           v-wave
         >
-          <img
-            src="~/assets/img/logo/logo-nusountara-icon-purple.svg"
-            alt="Nusountara Logomark"
-            class="h-7 sm:h-9 pointer-events-none"
-          />
-          <img
-            src="~/assets/img/logo/logo-nusountara-type-white.svg"
-            alt="Nusountara Logotype"
-            class="lg:hidden xl:block h-4 sm:h-[18px] pointer-events-none"
-          />
+          <Logomark class="h-7 sm:h-9 text-primary" />
+          <Logotype class="h-4 sm:h-[18px] lg:hidden xl:block text-white" />
         </nuxt-link>
 
         <nav

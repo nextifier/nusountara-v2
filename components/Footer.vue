@@ -11,21 +11,12 @@
             <nuxt-link
               to="/"
               @click.native="$scrollToTopIfCurrentPageIs('index')"
-              class="flex items-center"
+              class="brand-logo flex items-center gap-x-2.5 sm:gap-x-3 flex-shrink-0"
               v-wave
             >
-              <img
-                src="~/assets/img/logo/logo-nusountara-full.svg"
-                alt="Nusountara"
-                class="h-14 pointer-events-none"
-              />
+              <Logomark class="h-7 sm:h-9 text-primary" />
+              <Logotype class="h-4 sm:h-[18px] lg:hidden xl:block text-white" />
             </nuxt-link>
-            <a
-              href="https://panoramamedia.co.id"
-              target="_blank"
-              class="text-sm hover:text-white transition-colors mt-3"
-              >by Panorama Media</a
-            >
 
             <div class="flex items-center gap-x-8 mt-6">
               <a
