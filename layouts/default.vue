@@ -5,7 +5,7 @@
   >
     <Navbar />
     <BottomNav />
-    <Nuxt class="flex-auto mt-16 lg:mt-[80px] pb-16 lg:pb-0" keep-alive />
+    <Nuxt class="flex-auto mt-16 lg:mt-[80px]" keep-alive />
     <!-- <Footer /> -->
   </div>
 </template>
