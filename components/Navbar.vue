@@ -207,6 +207,146 @@
         </div>
       </div>
     </header>
+
+    <bottom-sheet
+      ref="bottom-sheet-nav"
+      id="bottom-sheet-nav"
+      maxHeight="543px"
+    >
+      <div class="modal-content">
+        <ul>
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/talks"
+              @click.native="$scrollToTopIfCurrentPageIs('talks')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconTalks class="nav-link-icon" />
+              <span>NST Talks</span>
+            </nuxt-link>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/radio"
+              @click.native="$scrollToTopIfCurrentPageIs('radio')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconRadio class="nav-link-icon" />
+              <span>NST Radio</span>
+            </nuxt-link>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/destinations"
+              @click.native="$scrollToTopIfCurrentPageIs('destinations')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconDestinations class="nav-link-icon" />
+              <span>NST Destinations</span>
+            </nuxt-link>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/news"
+              @click.native="$scrollToTopIfCurrentPageIs('news')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconNews class="nav-link-icon" />
+              <span>News</span>
+            </nuxt-link>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/contact"
+              @click.native="$scrollToTopIfCurrentPageIs('contact')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconContact class="nav-link-icon" />
+              <span>Contact</span>
+            </nuxt-link>
+          </li>
+        </ul>
+
+        <span class="divider"></span>
+
+        <ul>
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <a
+              :href="$store.state.youtube"
+              target="_blank"
+              class="bottom-sheet-nav-link"
+            >
+              <IconYouTube class="nav-link-icon" />
+              <span>YouTube</span>
+            </a>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <a
+              :href="$store.state.spotify"
+              target="_blank"
+              class="bottom-sheet-nav-link"
+            >
+              <IconSpotify class="nav-link-icon" />
+              <span>Spotify</span>
+            </a>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <a
+              :href="$store.state.soundcloud"
+              target="_blank"
+              class="bottom-sheet-nav-link"
+            >
+              <IconSoundCloud class="nav-link-icon" />
+              <span>SoundCloud</span>
+            </a>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <a
+              :href="$store.state.mixcloud"
+              target="_blank"
+              class="bottom-sheet-nav-link"
+            >
+              <IconMixCloud class="nav-link-icon" />
+              <span>MixCloud</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </bottom-sheet>
   </div>
 </template>
 
@@ -222,6 +362,16 @@ export default {
     M.Tooltip.init(document.querySelectorAll(".tooltipped"), {
       position: "bottom",
     });
+  },
+
+  methods: {
+    openModal(modalSlug) {
+      this.$refs[modalSlug].open();
+    },
+
+    closeModal(modalSlug) {
+      this.$refs[modalSlug].close();
+    },
   },
 };
 </script>
@@ -262,6 +412,34 @@ export default {
           @apply text-white bg-gray-800;
         }
       }
+    }
+  }
+}
+
+#bottom-sheet-nav {
+  & .modal-content {
+    @apply px-4 pt-2 pb-6 flex flex-col gap-y-4;
+
+    & ul {
+      @apply flex flex-col gap-y-2;
+
+      & li {
+        & a {
+          @apply flex items-center gap-x-6 hover:bg-gray-800 transition-colors px-4 py-2 rounded-lg;
+
+          &.nuxt-link-active {
+            @apply text-white bg-gray-800;
+          }
+
+          & .nav-link-icon {
+            @apply h-7;
+          }
+        }
+      }
+    }
+
+    & .divider {
+      @apply w-full h-px bg-gray-600;
     }
   }
 }

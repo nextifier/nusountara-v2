@@ -237,7 +237,7 @@ export default {
   transition: all 0.4s ease;
 
   &__content {
-    // @apply overflow-y-scroll pl-2 md:pl-2.5;
+    @apply overflow-y-scroll;
     &::-webkit-scrollbar {
       @apply w-2 md:w-2.5;
     }
