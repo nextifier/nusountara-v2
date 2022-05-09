@@ -211,7 +211,7 @@
     <bottom-sheet
       ref="bottom-sheet-nav"
       id="bottom-sheet-nav"
-      maxHeight="543px"
+      maxHeight="507px"
     >
       <div class="modal-content">
         <ul>
@@ -432,14 +432,14 @@ export default {
           }
 
           & .nav-link-icon {
-            @apply h-7;
+            @apply h-6;
           }
         }
       }
     }
 
     & .divider {
-      @apply w-full h-px bg-gray-600;
+      @apply w-full h-px bg-gray-700;
     }
   }
 }
