@@ -6,6 +6,6 @@
     <Navbar />
     <BottomNav />
     <Nuxt class="flex-auto mt-16 lg:mt-[80px]" keep-alive />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
