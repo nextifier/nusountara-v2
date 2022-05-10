@@ -19,6 +19,10 @@ export const getters = {
   getPlaylistByArtistSlug: (state) => (slug) => {
     return state.playlists.list.find(playlist => playlist.artist_slug === slug);
   },
+
+  getTrackBySlug: (state) => (slug) => {
+    return state.tracks.list.find(track => track.slug === slug);
+  },
 }
 
 export const mutations = {}
