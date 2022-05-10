@@ -6,7 +6,7 @@ export const state = () => ({
       artist: 'Apsara',
       artist_slug: 'apsara',
       cover_image: 'apsara-selections.webp',
-      songs: [{
+      tracks: [{
           id: '001',
           title: 'Energetic Stability - Vanita Remix',
           slug: 'energetic-stability',
@@ -255,7 +255,7 @@ export const state = () => ({
       artist: 'Nandi',
       artist_slug: 'nandi',
       cover_image: 'nandi-selections.webp',
-      songs: [{
+      tracks: [{
           id: '017',
           title: 'Carnaval - Superpitcher Main Fix',
           slug: 'carnaval-superpitcher',
@@ -518,7 +518,7 @@ export const state = () => ({
       slug: 'melodic-house-selections',
       artist: 'Melodic House',
       cover_image: 'melodic-house-selections.webp',
-      songs: [{
+      tracks: [{
           id: '034',
           title: 'The Damned - 2021 Raw Edit',
           slug: 'the-damned',
@@ -586,7 +586,7 @@ export const state = () => ({
       slug: 'future-bass-selections',
       artist: '',
       cover_image: 'future-bass-selections.webp',
-      songs: [{
+      tracks: [{
           id: '038',
           title: 'Mercy Falls',
           slug: 'mercy-falls',
@@ -713,7 +713,7 @@ export const state = () => ({
       name: 'Hip Hop Selections',
       slug: 'hip-hop-selections',
       cover_image: 'hip-hop-selections.webp',
-      songs: [{
+      tracks: [{
           id: '039',
           title: 'Astronaut In The Ocean',
           slug: 'astronaut-in-the-ocean',
@@ -780,7 +780,7 @@ export const state = () => ({
       name: 'Techno Selections',
       slug: 'techno-selections',
       cover_image: 'techno-selections.webp',
-      songs: [{
+      tracks: [{
         id: '035',
         title: 'Shimmer',
         slug: 'shimmer',

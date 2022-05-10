@@ -1,14 +1,18 @@
 <template>
   <div class="py-10 md:py-16">
     <div class="container mx-auto px-4">
-      <h1
-        class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
-      >
-        <span>Playlist Detail</span>
-        <span class="bg-primary h-2.5 w-5"></span>
-      </h1>
+      <div class="flex">
+        <nuxt-link
+          to="/playlists"
+          class="flex items-center gap-x-1 bg-gray-900 hover:bg-gray-800 text-gray-300 px-4 py-3 rounded-lg text-xs sm:text-sm"
+          v-wave
+        >
+          <IconArrowLeft class="h-4 text-white" />
+          <span>All Playlists</span>
+        </nuxt-link>
+      </div>
 
-      <div class="min-h-[600px] rounded-xl bg-gray-900 w-full mt-8"></div>
+      <Playlist :playlist="playlist" />
     </div>
   </div>
 </template>
@@ -17,8 +21,19 @@
 export default {
   head() {
     return {
-      title: `Playlist Detail – ${this.$config.appName}`,
+      title: `${this.playlist.name} – ${this.$config.appName}`,
     };
+  },
+
+  data() {
+    return {
+      playlist: {},
+    };
+  },
+
+  created() {
+    const playlistSlug = this.$route.params.slug;
+    this.playlist = this.$store.getters.getPlaylistBySlug(playlistSlug);
   },
 };
 </script>
