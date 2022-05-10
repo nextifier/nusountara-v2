@@ -17,11 +17,13 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['PlusJakartaSans', ...defaultTheme.fontFamily.sans],
+        'display': ['MuseoModerno', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'primary': '#6A2DFF',
         'primary-lighten': '#7a43ff',
         'primary-darken': '#5B17FF',
+        'secondary': '#33c3ff',
         'accent-yellow': '#FFD400',
         gray: colors.zinc,
       },

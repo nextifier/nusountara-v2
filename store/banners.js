@@ -1,5 +1,5 @@
 export const state = () => ({
-  bannerSlides: [{
+  list: [{
       name: "NANDI at Grojogan Watu Purbo",
       img: "nandi-youtube.jpg",
       link: "https://youtu.be/j_g1V_eyPqU",

@@ -97,6 +97,6 @@ export default {
 }
 
 .nav-link-label {
-  @apply text-xs;
+  @apply text-[11px] xs:text-xs;
 }
 </style>

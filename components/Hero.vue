@@ -46,7 +46,7 @@
     >
       <a
         class="w-10 h-10 bg-gray-900 hover:bg-gray-800 duration-300 transition-colors rounded-full cursor-pointer flex items-center justify-center animate-bounce-slow"
-        v-scroll-to="'#banner'"
+        v-scroll-to="'#banners'"
         v-wave
       >
         <IconChevronDown class="h-4" />

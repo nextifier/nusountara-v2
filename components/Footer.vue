@@ -2,7 +2,7 @@
   <footer class="pb-24 lg:pb-6">
     <div class="container mx-auto px-4">
       <div
-        class="grid grid-cols-2 md:grid-cols-12 gap-x-4 lg:gap-x-8 gap-y-16 py-32 md:py-48"
+        class="grid grid-cols-2 md:grid-cols-12 gap-x-4 lg:gap-x-8 gap-y-16 py-24 md:py-32"
       >
         <div
           class="col-span-2 md:col-span-6 lg:col-span-5 xl:col-span-5 2xl:col-span-4 flex flex-col items-start gap-y-3 md:gap-y-5 overflow-hidden"
