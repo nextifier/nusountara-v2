@@ -1,5 +1,5 @@
 export const state = () => ({
-  playlists: [{
+  list: [{
       id: 'P001',
       name: 'Apsara Selections for Nusountara',
       slug: 'apsara-selections',

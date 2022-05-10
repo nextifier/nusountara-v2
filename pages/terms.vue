@@ -1,15 +1,14 @@
 <template>
-  <div id="terms-page" class="!py-32 bg-gray-900">
+  <div id="terms-page" class="py-10 md:!py-16">
     <div
-      class="container mx-auto break-words px-4 prose prose-invert prose-a:text-violet-400"
+      class="container mx-auto break-words px-4 prose prose-invert prose-a:text-indigo-400"
     >
-      <h1>Terms and Conditions</h1>
+      <h1>Terms of Service</h1>
 
       <p>Last updated: {{ lastUpdate }}</p>
 
       <p>
-        Please read these terms and conditions carefully before using Our
-        Service.
+        Please read these terms of service carefully before using Our Service.
       </p>
 
       <h2>Interpretation and Definitions</h2>

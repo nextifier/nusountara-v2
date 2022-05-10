@@ -7,6 +7,18 @@ export const state = () => ({
   mixcloud: 'https://www.mixcloud.com/Nusountara/',
 })
 
-export const getters = {}
+export const getters = {
+  getArtistBySlug: (state) => (slug) => {
+    return state.artists.list.find(artist => artist.slug === slug);
+  },
+
+  getPlaylistBySlug: (state) => (slug) => {
+    return state.playlists.list.find(playlist => playlist.slug === slug);
+  },
+
+  getPlaylistByArtistSlug: (state) => (slug) => {
+    return state.playlists.list.find(playlist => playlist.artist_slug === slug);
+  },
+}
 
 export const mutations = {}

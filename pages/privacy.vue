@@ -1,7 +1,7 @@
 <template>
-  <div id="privacy-page" class="!py-32 bg-gray-900">
+  <div id="privacy-page" class="py-10 md:!py-16">
     <div
-      class="container mx-auto break-words px-4 prose prose-invert prose-a:text-violet-400"
+      class="container mx-auto break-words px-4 prose prose-invert prose-a:text-indigo-400"
     >
       <h1>Privacy Policy</h1>
 
