@@ -92,10 +92,10 @@ export default {
       src: '~/plugins/materialbox.js',
       mode: 'client'
     },
-    {
-      src: '~/plugins/disqus.js',
-      mode: 'client'
-    },
+    // {
+    //   src: '~/plugins/disqus.js',
+    //   mode: 'client'
+    // },
     {
       src: '~/plugins/vue-social-sharing.js',
       mode: 'client'
