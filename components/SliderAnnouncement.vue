@@ -49,7 +49,7 @@
 
         <div class="swiper-pagination !bottom-0"></div>
 
-        <div
+        <!-- <div
           class="swiper-button-prev !hidden md:!flex !-translate-x-16 group-hover:!translate-x-0 transition-transform"
         >
           <IconArrowLeft class="w-5 h-5 stroke-current" />
@@ -58,7 +58,7 @@
           class="swiper-button-next !hidden md:!flex !translate-x-16 group-hover:!translate-x-0 transition-transform"
         >
           <IconArrowRight class="w-5 h-5 stroke-current" />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
