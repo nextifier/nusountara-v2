@@ -23,6 +23,14 @@ export const getters = {
   getTrackBySlug: (state) => (slug) => {
     return state.tracks.list.find(track => track.slug === slug);
   },
+
+  getTracksByGenre: (state) => (genre) => {
+    return state.tracks.list.filter(track => track.genres && track.genres.includes(genre));
+  },
+
+  getTopChartTracksByGenre: (state) => (genre) => {
+    return state.tracks.list.filter(track => track.genres && track.genres.includes(genre) && track.playlist == 'Top Charts');
+  }
 }
 
 export const mutations = {}

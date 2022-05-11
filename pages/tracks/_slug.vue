@@ -20,7 +20,7 @@
         <span
           v-for="(genre, index) in track.genres"
           :key="index"
-          class="px-3 py-2 bg-gray-900 rounded-md"
+          class="px-3 py-2 bg-gray-900 rounded-md uppercase text-xs sm:text-sm"
           >{{ genre }}</span
         >
       </div>

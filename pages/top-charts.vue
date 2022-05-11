@@ -29,12 +29,12 @@
         <div v-for="(genre, index) in genres" :key="index">
           <div v-if="genre.slug == activeGenre">
             <div
-              v-if="genre.tracks && genre.tracks.length"
+              v-if="tracks && tracks.length"
               class="flex flex-col md:gap-y-2 mt-10"
             >
               <nuxt-link
                 :to="`/tracks/${track.slug}`"
-                v-for="(track, index) in genre.tracks"
+                v-for="(track, index) in tracks"
                 :key="index"
                 class="flex items-center gap-x-3 md:gap-x-5 hover:bg-gray-900 transition-colors px-3 sm:px-4 py-2 rounded-xl"
                 v-wave
@@ -65,8 +65,16 @@
                 </div>
                 <div>
                   <div
-                    class="w-16 h-16 bg-gray-800 rounded-lg flex-shrink-0 flex-grow-0"
-                  ></div>
+                    class="w-16 h-16 bg-gray-800 rounded-lg overflow-hidden flex-shrink-0 flex-grow-0"
+                  >
+                    <img
+                      v-if="track.cover_image"
+                      :src="require(`~/assets/img/tracks/${track.cover_image}`)"
+                      :alt="track.title"
+                      class="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
                 <div class="flex flex-col items-start gap-y-0.5">
                   <span
@@ -94,13 +102,24 @@ export default {
 
   data() {
     return {
-      genres: [],
+      genres: [
+        {
+          name: "House",
+          slug: "house",
+        },
+        {
+          name: "Techno",
+          slug: "techno",
+        },
+      ],
       activeGenre: "house",
     };
   },
 
-  created() {
-    this.genres = this.$store.state.topCharts.genres;
+  computed: {
+    tracks() {
+      return this.$store.getters.getTopChartTracksByGenre(this.activeGenre);
+    },
   },
 };
 </script>
