@@ -951,15 +951,15 @@ export const state = () => ({
       },
     },
     {
-      title: 'Just a Dance',
-      slug: 'just-a-dance',
-      artist: 'Len Faki',
+      title: 'Stolen',
+      slug: 'stolen',
+      artist: 'DJ Justin Johnson, 3PO, Len Faki',
       genres: ['techno'],
       playlist: 'Top Charts',
-      cover_image: '',
-      spotify_embed_src: '',
+      cover_image: 'Stolen.jpg',
+      spotify_embed_src: 'https://open.spotify.com/embed/track/75FI4n4uQZMBG9m7KSUJOd?utm_source=generator&theme=0',
       link: {
-        spotify: '',
+        spotify: 'https://open.spotify.com/track/75FI4n4uQZMBG9m7KSUJOd?si=305e30402a1f4543',
       },
     },
     {
