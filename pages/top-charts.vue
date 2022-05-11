@@ -30,15 +30,18 @@
           <div v-if="genre.slug == activeGenre">
             <div
               v-if="genre.tracks && genre.tracks.length"
-              class="flex flex-col gap-y-2 md:gap-y-4 mt-10"
+              class="flex flex-col md:gap-y-2 mt-10"
             >
-              <div
+              <nuxt-link
+                :to="`/tracks/${track.slug}`"
                 v-for="(track, index) in genre.tracks"
                 :key="index"
-                class="flex items-center gap-x-3 md:gap-x-5"
+                class="flex items-center gap-x-3 md:gap-x-5 hover:bg-gray-900 transition-colors px-3 sm:px-4 py-2 rounded-xl"
+                v-wave
               >
                 <div
-                  class="rank-number w-4 flex-shrink-0 flex-grow-0 font-bold flex flex-col items-center gap-y-1"
+                  class="rank-number w-6 flex-shrink-0 flex-grow-0 flex flex-col items-center gap-y-1"
+                  :class="{ 'font-bold text-white': index < 3 }"
                 >
                   <div v-if="index < 3">
                     <IconStar
@@ -50,22 +53,29 @@
                       }"
                     />
                   </div>
-                  {{ index + 1 }}
+                  <div class="inline-flex items-baseline">
+                    {{ index + 1 }}
+                    <div class="text-xs sm:text-sm">
+                      <span v-if="index == 0">st</span>
+                      <span v-else-if="index == 1">nd</span>
+                      <span v-else-if="index == 2">rd</span>
+                      <span v-else>th</span>
+                    </div>
+                  </div>
                 </div>
-                <nuxt-link :to="`/tracks/${track.slug}`">
+                <div>
                   <div
-                    class="w-16 h-16 bg-gray-900 rounded-lg flex-shrink-0 flex-grow-0"
+                    class="w-16 h-16 bg-gray-800 rounded-lg flex-shrink-0 flex-grow-0"
                   ></div>
-                </nuxt-link>
+                </div>
                 <div class="flex flex-col items-start gap-y-0.5">
-                  <nuxt-link
-                    :to="`/tracks/${track.slug}`"
+                  <span
                     class="font-bold text-white text-base sm:text-lg line-clamp-1"
-                    >{{ track.title }}</nuxt-link
+                    >{{ track.title }}</span
                   >
                   <span class="line-clamp-1">{{ track.artist }}</span>
                 </div>
-              </div>
+              </nuxt-link>
             </div>
           </div>
         </div>

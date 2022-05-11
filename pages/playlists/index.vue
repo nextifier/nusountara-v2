@@ -12,25 +12,33 @@
           class="container mx-auto px-4 mb-4 sm:mb-6 flex items-end justify-between gap-x-3"
         >
           <div class="flex items-center gap-x-3 lg:gap-x-6">
-            <img
-              :src="require(`~/assets/img/playlists/${playlist.cover_image}`)"
-              :alt="playlist.name"
-              class="w-20 h-20 lg:w-32 lg:h-32 object-cover rounded-lg smooth-corners sc-4 pointer-events-none"
-            />
-            <div class="flex flex-col gap-y-1 lg:gap-y-3 items-start">
+            <div class="smooth-corners sc-4">
+              <nuxt-link :to="`/playlists/${playlist.slug}`">
+                <img
+                  :src="
+                    require(`~/assets/img/playlists/${playlist.cover_image}`)
+                  "
+                  :alt="playlist.name"
+                  class="w-20 h-20 lg:w-32 lg:h-32 object-cover rounded-lg"
+                />
+              </nuxt-link>
+            </div>
+            <nuxt-link
+              :to="`/playlists/${playlist.slug}`"
+              class="flex flex-col gap-y-1 lg:gap-y-3 items-start"
+            >
               <h3
                 class="flex-shrink font-bold text-gray-100 text-xl sm:text-3xl lg:text-5xl tracking-tighter"
               >
                 {{ playlist.name }}
               </h3>
-              <nuxt-link
-                :to="`/playlists/${playlist.slug}`"
-                class="flex-shrink-0 uppercase tracking-wide text-gray-400 hover:text-white transition-colors flex items-center"
+              <div
+                class="flex-shrink-0 font-bold tracking-tight text-gray-400 hover:text-white transition-colors flex items-center"
               >
                 <span>See all</span>
                 <IconArrowRight class="h-4 ml-1" />
-              </nuxt-link>
-            </div>
+              </div>
+            </nuxt-link>
           </div>
         </div>
         <div

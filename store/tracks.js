@@ -3,7 +3,6 @@ export const state = () => ({
       id: '001',
       title: 'Energetic Stability - Vanita Remix',
       slug: 'energetic-stability',
-      genres: ['House', 'Techno'],
       description: '',
       artist: 'Jeancy, Vanita',
       album: 'Inner Awen Vol. IV',
@@ -740,6 +739,7 @@ export const state = () => ({
       slug: 'midnight-in-peckham',
       artist: 'Chaos in the CBD',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Midnight in Peckham.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/1CzfZY7lXaysy84x3a2jix?utm_source=generator&theme=0',
       link: {
@@ -751,6 +751,7 @@ export const state = () => ({
       slug: 'set-it-out',
       artist: 'Omar S',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Set It Out.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/55uBEgwtpTx5NGgzkoDoAx?utm_source=generator&theme=0',
       link: {
@@ -762,6 +763,7 @@ export const state = () => ({
       slug: 'selfless-state',
       artist: 'So Inagawa',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Selfless State.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/playlist/1oc323dm0734ZasBpqQGou?utm_source=generator&theme=0',
       link: {
@@ -773,6 +775,7 @@ export const state = () => ({
       slug: 'footwork',
       artist: 'Theo Parrish',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Footwork.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/2m7DFd2aOXVpNlA5KeAlA7?utm_source=generator&theme=0',
       link: {
@@ -784,6 +787,7 @@ export const state = () => ({
       slug: '3d-print',
       artist: 'DJ Sneak',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: '3D Print.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/5gp6c8VfyXDQLwu9arBvSe?utm_source=generator&theme=0',
       link: {
@@ -795,6 +799,7 @@ export const state = () => ({
       slug: 'its-over-love',
       artist: 'Todd Terry',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'It\'s Over Love.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/3t2DaDCFAj6ko9RFQxvyaA?utm_source=generator&theme=0',
       link: {
@@ -806,6 +811,7 @@ export const state = () => ({
       slug: 'the-way-you-like',
       artist: 'Gene Farris',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'The Way You Like.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/0Sw5puLByGkHnj4EQGjIcx?utm_source=generator&theme=0',
       link: {
@@ -817,6 +823,7 @@ export const state = () => ({
       slug: 'who-is-afraid-of-detroit',
       artist: 'Claude VonStroke',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Who\'s Afraid of Detroit.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/1KiNEbmfe20LO0jitOp8Ao?utm_source=generator&theme=0',
       link: {
@@ -828,6 +835,7 @@ export const state = () => ({
       slug: 'get-on-down',
       artist: 'Kenny Dope',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Get on Down.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/4PEdxcK7pPL6TWM0lUSh5K?utm_source=generator&theme=0',
       link: {
@@ -839,6 +847,7 @@ export const state = () => ({
       slug: 'believe',
       artist: 'Fred Everything',
       genres: ['House'],
+      playlist: 'Top Charts',
       cover_image: 'Believe.jpg',
       spotify_embed_src: 'https://open.spotify.com/embed/track/14WqqgfrkNvD9ll7DBUsvl?utm_source=generator&theme=0',
       link: {

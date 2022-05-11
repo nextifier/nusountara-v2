@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex items-center gap-x-3 lg:gap-x-6 mt-10 md:mt-16">
+    <div class="flex items-center gap-x-3 lg:gap-x-6">
       <img
         :src="require(`~/assets/img/playlists/${playlist.cover_image}`)"
         :alt="playlist.name"

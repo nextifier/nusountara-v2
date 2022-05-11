@@ -1,6 +1,5 @@
 <template>
   <div
-    v-if="!excludeRoutes.includes($route.name)"
     id="bottom-nav"
     class="lg:hidden h-16 w-full fixed z-[998] bottom-0 border-t border-white/10 flex items-center justify-center transition-all overflow-x-hidden"
   >
@@ -58,21 +57,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      excludeRoutes: [
-        "tracks-slug",
-        "series-slug",
-        "events-slug",
-        "collections-slug",
-        "news-slug",
-        "artists-slug",
-        "playlists-slug",
-      ],
-    };
-  },
-};
+export default {};
 </script>
 
 <style scoped>

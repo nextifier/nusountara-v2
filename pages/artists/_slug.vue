@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <BackFloatingButton />
+  <div class="pb-32">
     <div
       class="w-full h-40 sm:h-56 md:h-64 lg:h-72 xl:h-80 2xl:h-96 px-1 sm:px-4"
     >

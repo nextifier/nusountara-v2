@@ -117,6 +117,8 @@ export default {
         // },
         freeMode: true,
         loop: true,
+        autoplay: true,
+        speed: 4000,
         grabCursor: true,
         // pagination: {
         //   el: ".swiper-pagination",
@@ -128,6 +130,7 @@ export default {
         breakpoints: {
           1024: {
             loop: false,
+            autoplay: false,
             slidesPerView: 3,
             spaceBetween: 12,
           },
