@@ -53,7 +53,7 @@
 export default {
   head() {
     return {
-      title: `Track Detail – ${this.$config.appName}`,
+      title: `${this.track.title}`,
     };
   },
 

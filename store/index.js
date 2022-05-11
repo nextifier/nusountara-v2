@@ -30,7 +30,23 @@ export const getters = {
 
   getTopChartTracksByGenre: (state) => (genre) => {
     return state.tracks.list.filter(track => track.genres && track.genres.includes(genre) && track.playlist == 'Top Charts');
-  }
+  },
+
+  getSeriesByCategory: (state) => (category) => {
+    return state.series.list.filter(item => item.categories && item.categories.includes(category)).sort((a, b) => {
+      return b.release_date - a.release_date
+    });
+  },
+
+  getSeriesByCategoryWithLimit: (state) => (category) => {
+    return state.series.list.filter(item => item.categories && item.categories.includes(category)).sort((a, b) => {
+      return b.release_date - a.release_date
+    }).splice(0, 10);
+  },
+
+  getSeriesBySlug: (state) => (slug) => {
+    return state.series.list.find(item => item.slug === slug);
+  },
 }
 
 export const mutations = {}
