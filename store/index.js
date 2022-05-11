@@ -47,6 +47,12 @@ export const getters = {
   getSeriesBySlug: (state) => (slug) => {
     return state.series.list.find(item => item.slug === slug);
   },
+
+  getRecommendedSeries: (state) => (category, slug) => {
+    return state.series.list.filter(item => item.categories && item.categories.includes(category) && item.slug != slug).sort((a, b) => {
+      return b.release_date - a.release_date
+    }).splice(0, 10);
+  }
 }
 
 export const mutations = {}

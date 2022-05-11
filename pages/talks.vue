@@ -13,7 +13,7 @@
         Indonesia and their personal life stories!
       </p>
 
-      <SeriesList :series="series" />
+      <SeriesList :series="series" class="mt-6" />
     </div>
   </div>
 </template>
