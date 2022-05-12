@@ -1,17 +1,29 @@
 <template>
   <div class="py-10 md:py-16">
     <div
-      v-if="$store.state.events.list && $store.state.events.list.length"
-      class="container mx-auto px-4"
+      v-if="
+        (upcomingEvents && upcomingEvents.length) ||
+        (pastEvents && pastEvents.length)
+      "
+      class="container mx-auto px-4 flex flex-col gap-y-24"
     >
-      <h1
-        class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
-      >
-        <span>Events</span>
-        <span class="bg-primary h-2.5 w-5"></span>
-      </h1>
+      <div v-if="upcomingEvents && upcomingEvents.length">
+        <h1
+          class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
+        >
+          <span>Upcoming Events</span>
+          <span class="bg-primary h-2.5 w-5"></span>
+        </h1>
+      </div>
 
-      <div class="min-h-[600px] rounded-xl bg-gray-900 w-full mt-8"></div>
+      <div v-if="pastEvents && pastEvents.length">
+        <h1
+          class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
+        >
+          <span>Past Events</span>
+          <span class="bg-primary h-2.5 w-5"></span>
+        </h1>
+      </div>
     </div>
 
     <div v-else class="min-h-screen flex flex-col items-center">
@@ -59,6 +71,8 @@ export default {
     return {
       defaultOptions: { animationData: animationData.default },
       animationSpeed: 1,
+      upcomingEvents: [],
+      pastEvents: [],
     };
   },
 
@@ -67,6 +81,11 @@ export default {
       this.anim = anim;
     },
   },
+
+  // created() {
+  //   this.upcomingEvents = this.$store.getters.getEventsByStatus("upcoming");
+  //   this.pastEvents = this.$store.getters.getEventsByStatus("passed");
+  // },
 };
 </script>
 

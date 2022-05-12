@@ -52,6 +52,10 @@ export const getters = {
     return state.series.list.filter(item => item.categories && item.categories.includes(category) && item.slug != slug).sort((a, b) => {
       return b.release_date - a.release_date
     }).splice(0, 10);
+  },
+
+  getEventsByStatus: (state) => (status) => {
+    return state.events.list.filter(event => event.status && event.status.toLowerCase() == status);
   }
 }
 
