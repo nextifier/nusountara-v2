@@ -33,6 +33,8 @@
         <div class="text-white mt-6 text-base sm:text-lg text-center">
           Sorry, there is no news at the moment. Please come back later :)
         </div>
+
+        <!-- <ColorfulLoadingSpinner /> -->
       </div>
     </div>
   </div>
@@ -55,10 +57,17 @@ export default {
 
   data() {
     return {
+      posts: [],
       defaultOptions: { animationData: animationData.default },
       animationSpeed: 1,
     };
   },
+
+  // async fetch() {
+  //   this.posts = await this.$axios.$get(
+  //     `https://backend.panorama.id/api/posts`
+  //   );
+  // },
 
   methods: {
     handleAnimation: function (anim) {

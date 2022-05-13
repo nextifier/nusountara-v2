@@ -368,6 +368,16 @@ export const state = () => ({
       release_date: new Date(2022, 4, 5),
       embed_link: 'https://www.youtube.com/embed/cMLkZrOHNVc',
     },
+    {
+      id: 29,
+      title: 'GADIS SAMPUL BISA TERJUN KE DUNIA MUSIK! | NST Talks Episode 15 | STEF',
+      slug: 'talks-15',
+      categories: ['NST Talks'],
+      cover_image: '/talks/15.webp',
+      description: ``,
+      release_date: new Date(2022, 4, 12),
+      embed_link: 'https://www.youtube.com/embed/jBfLPdfRPEM',
+    },
   ]
 })
 

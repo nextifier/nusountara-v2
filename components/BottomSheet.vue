@@ -238,15 +238,6 @@ export default {
 
   &__content {
     @apply overflow-y-scroll;
-    &::-webkit-scrollbar {
-      @apply w-2 md:w-2.5;
-    }
-    &::-webkit-scrollbar-track {
-      @apply bg-gray-900;
-    }
-    &::-webkit-scrollbar-thumb {
-      @apply rounded-full bg-gray-700/80 transition-colors hover:bg-gray-700;
-    }
   }
   &__backdrop {
     @apply fixed inset-0 z-[9999] opacity-0 invisible;

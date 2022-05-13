@@ -56,7 +56,11 @@ export const getters = {
 
   getEventsByStatus: (state) => (status) => {
     return state.events.list.filter(event => event.status && event.status.toLowerCase() == status);
-  }
+  },
+
+  getEventBySlug: (state) => (slug) => {
+    return state.events.list.find(event => event.slug === slug);
+  },
 }
 
 export const mutations = {}

@@ -8,6 +8,8 @@ export const state = () => ({
       time: '18:00 - 22:00 WIB',
       location: 'Sleman, Yogyakarta',
       price: 'Rp200,000',
+      tiketDotComLink: 'https://tiket.com/',
+      loketDotComLink: 'https://loket.com/',
       status: 'upcoming',
       images: [
         '/unhide-grojogan/01.jpg',
@@ -64,7 +66,31 @@ export const state = () => ({
       description: `
       <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.</p>
     `
-    }
+    },
+    {
+      id: 4,
+      title: 'Unhide Goa Langir Beach',
+      slug: 'unhide-goa-langir-beach',
+      categories: [],
+      date: '24 - 25 Nov 2022',
+      time: '18:00 - 22:00 WIB',
+      location: 'Banten',
+      price: 'Rp150,000',
+      tiketDotComLink: 'https://tiket.com/',
+      loketDotComLink: 'https://loket.com/',
+      status: 'upcoming',
+      images: [
+        '/unhide-grojogan/04.jpg',
+        '/unhide-grojogan/05.jpg',
+        '/unhide-grojogan/06.jpg',
+        '/unhide-grojogan/01.jpg',
+        '/unhide-grojogan/02.jpg',
+        '/unhide-grojogan/03.jpg',
+      ],
+      description: `
+      <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.</p>
+    `
+    },
   ]
 })
 
