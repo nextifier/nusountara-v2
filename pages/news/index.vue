@@ -26,10 +26,10 @@
                 loading="lazy"
               />
             </nuxt-link>
-            <div class="flex flex-col gap-y-1">
+            <div class="flex flex-col gap-y-1.5">
               <nuxt-link
                 :to="`/news/${post.slug}`"
-                class="text-white line-clamp-2"
+                class="text-white line-clamp-3"
                 >{{ post.title }}</nuxt-link
               >
               <span class="text-xs sm:text-sm">{{
