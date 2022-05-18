@@ -378,6 +378,18 @@ export const state = () => ({
       release_date: new Date(2022, 4, 12),
       embed_link: 'https://www.youtube.com/embed/jBfLPdfRPEM',
     },
+    {
+      id: 30,
+      title: 'NST Radio Present INDRA7 from Indonesia | Vol. 7',
+      slug: 'nst-radio-present-indra7-from-indonesia',
+      cover_image: '/radio/vol-7.jpg',
+      categories: ['NST Radio'],
+      description: `
+      <p>INDRA7 @indra7<br />Instagram: <a href="https://www.instagram.com/indra7">https://www.instagram.com/indra7</a><br />Country: Indonesia</p>
+        `,
+      release_date: new Date(2022, 4, 18),
+      embed_link: 'https://www.youtube.com/embed/is6uOGcTgC8',
+    },
   ]
 })
 

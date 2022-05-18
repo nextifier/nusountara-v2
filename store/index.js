@@ -61,6 +61,10 @@ export const getters = {
   getEventBySlug: (state) => (slug) => {
     return state.events.list.find(event => event.slug === slug);
   },
+
+  getPostBySlug: (state) => (slug) => {
+    return state.posts.list.find(post => post.slug === slug);
+  },
 }
 
 export const mutations = {}
