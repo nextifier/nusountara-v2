@@ -386,6 +386,21 @@ export const state = () => ({
       categories: ['NST Radio'],
       description: `
       <p>INDRA7 @indra7<br />Instagram: <a href="https://www.instagram.com/indra7">https://www.instagram.com/indra7</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Black Rain (Âme Remix) – Rhye, Âme</li>
+        <li>Optical Glitch Alphadog Remix – Alt Control</li>
+        <li>Ping Pong Pitch (Extended Mix) – Adam Ten & Mita Gami</li>
+        <li>Gabriel_02 (Original Mix) – Indra7</li>
+        <li>Gabriel_09 (Original Mix) – Indra7</li>
+        <li>Our Space (Original Mix) – Dino Lenny, ARTBAT</li>
+        <li>Drown (Massano Remix) – Østil, Juan Hansen</li>
+        <li>Blackout (Original Mix) – Lexer</li>
+        <li>Loss Of Hope – Innellea</li>
+        <li>Aviator (Original Mix) – Sasha & Photek</li>
+        <li>Safe (Joris Voorn Remix) – Monkey Safari</li>
+        <li>Falling In (Red Axes Remix) – Nick Warren</li>
+      </ul>
         `,
       release_date: new Date(2022, 4, 18),
       embed_link: 'https://www.youtube.com/embed/is6uOGcTgC8',

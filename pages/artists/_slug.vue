@@ -209,15 +209,32 @@
           </a>
         </div>
 
-        <div
-          v-if="artist.biography"
-          class="biography mt-16 md:mt-24 prose prose-invert"
-        >
-          <span
-            class="font-bold tracking-tighter text-white text-base sm:text-lg"
-            >Biography</span
+        <div class="flex flex-col w-full max-w-4xl">
+          <div
+            v-if="artist.biography"
+            class="biography mt-16 md:mt-24 prose prose-invert"
           >
-          <div class="mt-4" v-html="artist.biography"></div>
+            <span
+              class="font-bold tracking-tighter text-white text-base sm:text-lg"
+              >Biography</span
+            >
+            <div class="mt-4" v-html="artist.biography"></div>
+          </div>
+
+          <div
+            v-if="artist.discography && artist.discography.length"
+            class="discography mt-8 md:mt-12 prose prose-invert"
+          >
+            <span
+              class="font-bold tracking-tighter text-white text-base sm:text-lg"
+              >Discography</span
+            >
+            <ul>
+              <li v-for="(item, index) in artist.discography" :key="index">
+                {{ item }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

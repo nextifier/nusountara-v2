@@ -42,7 +42,35 @@ export const state = () => ({
             <li>JAPAN TOUR: Dimension Tokyo, Substore Tokyo, Joujou Nishiazabu</li>
             <li>ASIA TOUR: Artemis Singapore, FONO Malaysia, UNDERGROUND Nihonbashi Japan, Bridge Shibuya Japan, EN-SOF Shibuya Japan</li>
           </ul>
-      `
+      `,
+      discography: [
+        'Dark Energy',
+        'Space In Your Eye',
+        'Hoag\'s Object',
+        'Speak Out',
+        'Stellar',
+        'Move Your Hands',
+        'Daytime Soul',
+        'Feel The Melody',
+        'Get Down to the Music',
+        'Body Move',
+        'Sambalado',
+        'So What To See',
+        'Midnight In Palma',
+        'This Is The Time',
+        'Feeling',
+        'Squid',
+        'It\'s Fabulous',
+        'Alright',
+        'Let Me Tell You',
+        'Can You Feel It',
+        'Orchid',
+        'In The Night',
+        'Funky Jack',
+        'Atmos',
+        'Casino Theme',
+        'Salt',
+      ]
     },
     {
       id: 'A003',
@@ -74,7 +102,23 @@ export const state = () => ({
           <p>Venturing into the world of electronic music in 2008, Reza Putra Ananda has been reborn as Ecilo through his love for the industrial beats of Techno. His experience in the industry comes from years of refining his sound and honing his technique, with influences ranging from expressive African-American Music (Jazz, Soul,Blues) and the atmospheric resonances of Sci-Fi soundtracks.</p>
           <p>Always experimenting with different sounds has shaped Ecilo to become a producer whois genre-fluid yet strongly rooted in his foundations for proper Techno. Though slightly considered the underdog of genres in Indonesia, Ecilo’s consistency inproviding solid proper Techno DJ sets and live performances has reinvigorated the genre and even inspired more and more passionate players into the field. With releases on international labels such as ARTS (Berlin), Planet Rhythm (The Netherlands) and Jeff Mills Label Axis Records (USA), Ecilo has strengthened both his reputation and his percussive 4x4 beats to resonate all over the globe.</p>
           <p>Known for top-notch originality and craftsmanship, his tunes have earned airtime through the sets of giants such as Ben Sims, Alan Fitzpatrick, Mark Farina and Dave Clark. Though his achievements may be many, this doesn’t stop Ecilo from constantly evolving and perfecting his sound. His hard work and perseverance has also led him to reach the #2 spot on Beatport’s Techno DJ Chart. With many more representations and contributions to Jakarta Techno, Ecilo has become asignature household name for music lovers and partygoers. This is proven by his anointment as music Director and Resident DJ at the famed Kilo Lounge Jakarta (part of Singapore-based Kilo Collective), where he has hosted many social events alongside numerous local and international talents.</p>
-        `
+        `,
+      discography: [
+        'Drive To Detroit EP (Plastic City)',
+        'Soul Atmosphere EP (Biotech Rec)',
+        'Jakarta Suburban EP (Opilec Rec)',
+        'Life Recycle EP (Metrohm Rec)',
+        'French Loop EP (Visillusion)',
+        'Boy EP (Visillusion)',
+        'Detroit Vs Jakarta EP (Visillusion)',
+        'Forbidden Revolution EP (Visillusion)',
+        'Bugi Minimalist EP (ARTS)',
+        'Time Looper EP (Planet Rhythm)',
+        'White Lane EP (We Are The Brave)',
+        'Abbys Note LP (Diffuse Reality)',
+        'Singularity EP (Edit Select)',
+        'Uncovert Album (Axis Rec)',
+      ]
     },
   ],
 })
