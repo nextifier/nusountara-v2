@@ -33,6 +33,16 @@ export const state = () => ({
       spotify: 'https://spoti.fi/3lLieWE',
       soundcloud: 'https://m.soundcloud.com/cyda_music',
       mixcloud: 'https://m.mixcloud.com/cydamusic/',
+      biography: `
+          <p>Cyda was born in April 17th, 1990 in Bandung. This man has musician gene from his mother who works as Indonesian traditional singer (sinden). He began his musical career since he was in senior high school in 2007. He established a band specializing in chiptune genre. Thenceforward, he and his musican genre like a solid soulmate.</p>
+          <p>No wonder, he also a musician, arranger, producer, and DJ. He then becomes a music producer until this time. Now his passion music in dark disco, italo disco, synthwave, and house music. Some of the awards he got in the Indonesian electronic dance music industry are "PRODUCER OF THE YEAR PARANOIA AWARDS 2017" and "HOUSE DJ OF THE YEAR PARANOIA AWARDS 2018".</p>
+          <p>He has released many songs and signed "Space Energy EP" with Soulfooled records berlin "Alex Niggemann's label". Cyda is also working as a wMusic Director. Until now he is still the unstoppable talent that would make his move hypnotize the crowd.</p>
+          <span>GIGS EXPERIENCE:</span>
+          <ul>
+            <li>JAPAN TOUR: Dimension Tokyo, Substore Tokyo, Joujou Nishiazabu</li>
+            <li>ASIA TOUR: Artemis Singapore, FONO Malaysia, UNDERGROUND Nihonbashi Japan, Bridge Shibuya Japan, EN-SOF Shibuya Japan</li>
+          </ul>
+      `
     },
     {
       id: 'A003',
