@@ -33,7 +33,7 @@ export const state = () => ({
     },
     {
       id: 'A002',
-      name: 'Cyda',
+      name: 'CYDA',
       slug: 'cyda',
       designation: 'DJ',
       profile_image: 'cyda-profile.webp',
@@ -49,25 +49,25 @@ export const state = () => ({
           <p>GIGS EXPERIENCE:</p>
           <span>Asia Tour</span>
           <ul>
-            <li>EN-SOF SHIBUYA – JAPAN</li>
-            <li>DIMENSION SHIBUYA – JAPAN</li>
-            <li>UNDERGROUND NIHONBASHI – JAPAN</li>
-            <li>COOL DREAD ASAGAYA – JAPAN</li>
-            <li>MEDIUM KIYOSUMISHIRAKAWA  - JAPAN</li>
-            <li>SUBSTORE KOENJI – JAPAN</li>
-            <li>ARTEMIS – SINGAPORE</li>
-            <li>FONO KUALA LUMPUR – MALAYSIA</li>
+            <li>EN-SOF Shibuya - Japan</li>
+            <li>Dimension Shibuya - Japan</li>
+            <li>Underground Nihonbashi - Japan</li>
+            <li>Cool Dread Asagaya - Japan</li>
+            <li>Medium Kiyosumishirakawa - Japan</li>
+            <li>Substore Koenji - Japan</li>
+            <li>Artemis - Singapore</li>
+            <li>Fono Kuala Lumpur - Malaysia</li>
           </ul>
       `,
       discography: [
-        'SPACE ENERGY EP (SOULFOOLED RECORDS)',
-        'STELLAR (LOVE INTERNATIONAL)',
-        'DAYTIME SOUL (CLUB SESSION)',
-        'MOVE YOUR HANDS EP (POGO HOUSE RECORDS',
-        'IT’S FABULOUS EP (ONAKO RECORDS)',
-        'FUNKY JACK “ADE COMPILATION 2018” (UNION RECORDS)',
-        'FEELING EP (POGO HOUSE RECORDS)',
-        'ATMOS EP (SOUL SHIFT MUSIC)',
+        'Space Energy EP (Soulfooled Records)',
+        'Stellar (Love International)',
+        'Daytime Soul (Club Session)',
+        'Move Your Hands EP (Pogo House Records)',
+        'It\'s Fabulous EP (Onako Records)',
+        'Funky Jack \"Ade Compilation 2018\" (Union Records)',
+        'Feeling EP (Pogo House Records)',
+        'Atmos EP (Soul Shift Music)',
       ]
     },
     {
