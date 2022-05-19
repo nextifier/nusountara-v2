@@ -33,7 +33,7 @@ export const state = () => ({
     },
     {
       id: 'A002',
-      name: 'CYDA',
+      name: 'Cyda',
       slug: 'cyda',
       designation: 'DJ',
       profile_image: 'cyda-profile.webp',
