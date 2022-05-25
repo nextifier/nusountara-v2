@@ -405,6 +405,16 @@ export const state = () => ({
       release_date: new Date(2022, 4, 18),
       embed_link: 'https://www.youtube.com/embed/is6uOGcTgC8',
     },
+    {
+      id: 31,
+      title: 'GENRE MUSIK DRUM & BASS DALAM VERSI MUZTANG | NST Talks Episode 16 | MUZTANG',
+      slug: 'talks-16',
+      categories: ['NST Talks'],
+      cover_image: '/talks/16.jpg',
+      description: ``,
+      release_date: new Date(2022, 4, 19),
+      embed_link: 'https://www.youtube.com/embed/WhUX45FNS4E',
+    },
   ]
 })
 
