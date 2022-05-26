@@ -415,6 +415,16 @@ export const state = () => ({
       release_date: new Date(2022, 4, 19),
       embed_link: 'https://www.youtube.com/embed/WhUX45FNS4E',
     },
+    {
+      id: 32,
+      title: 'INI DIA SOSOK DIBALIK BRIGHTSPOT MARKET | NST Talks Episode 17 | HOGI WIRJONO',
+      slug: 'talks-17',
+      categories: ['NST Talks'],
+      cover_image: '/talks/17.jpg',
+      description: ``,
+      release_date: new Date(2022, 4, 26),
+      embed_link: 'https://www.youtube.com/embed/vRmTzz4LX9M',
+    },
   ]
 })
 
