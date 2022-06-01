@@ -425,6 +425,41 @@ export const state = () => ({
       release_date: new Date(2022, 4, 26),
       embed_link: 'https://www.youtube.com/embed/vRmTzz4LX9M',
     },
+    {
+      id: 33,
+      title: 'NST Radio Present ANDRA from Indonesia | Vol. 8',
+      slug: 'nst-radio-present-andra-from-indonesia',
+      cover_image: '/radio/vol-8.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>ANDRA @diandrasjidi<br />Instagram: <a href="https://www.instagram.com/diandrasjidi">https://www.instagram.com/diandrasjidi</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Matrixxman - Sounds For Rocks</li>
+        <li>Ruben Ganev - The Luminous Mind</li>
+        <li>Masseran - Night Hiking</li>
+        <li>Franz Jäger - Red Star (Louis The 4th Remix)</li>
+        <li>Palma - Touch</li>
+        <li>Bidoben - Gstaad</li>
+        <li>Pol - Romb 9 (Modem Remix)</li>
+        <li>Hedström & Plug - Libertad</li>
+        <li>RONY Group - Shevet</li>
+        <li>Terminus - Pollux</li>
+        <li>Danny Wabbit - Me</li>
+        <li>Bidoben - Recensed</li>
+        <li>Téo Dréan - Overtone</li>
+        <li>Lucas Sosa (AR) - 5AM</li>
+        <li>Hedström & Pflug - Rückzug</li>
+        <li>Egotot - Choreos</li>
+        <li>Oktobr-Rollback</li>
+        <li>Hitam - Emerald Curse</li>
+        <li>Marcal - Seroto</li>
+        <li>Hedström & Pflug - Ganz Nah (Egotot Hard Groove Mix)</li>
+      </ul>
+        `,
+      release_date: new Date(2022, 5, 1),
+      embed_link: 'https://www.youtube.com/embed/YxFTtVwrZGk',
+    },
   ]
 })
 
