@@ -119,11 +119,11 @@ export default {
           slug: "dark-disco",
         },
         {
-          name: "Melodic House and Techno",
+          name: "Melodic House, Techno",
           slug: "melodic-house-and-techno",
         },
         {
-          name: "R&B and Hip-Hop",
+          name: "R&B, Hip-Hop",
           slug: "R&B-and-Hip-Hop",
         },
       ],
