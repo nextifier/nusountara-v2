@@ -10,7 +10,10 @@
 
       <div class="genres flex flex-col mt-10">
         <span class="font-bold text-base">Choose Genre</span>
-        <div v-if="genres && genres.length" class="flex flex-wrap gap-2 mt-3">
+        <div
+          v-if="genres && genres.length"
+          class="flex flex-wrap gap-x-2 gap-y-3 mt-3"
+        >
           <button
             type="button"
             v-for="(genre, index) in genres"
@@ -110,6 +113,18 @@ export default {
         {
           name: "Techno",
           slug: "techno",
+        },
+        {
+          name: "Dark Disco",
+          slug: "dark-disco",
+        },
+        {
+          name: "Melodic House and Techno",
+          slug: "melodic-house-and-techno",
+        },
+        {
+          name: "R&B and Hip-Hop",
+          slug: "R&B-and-Hip-Hop",
         },
       ],
       activeGenre: "house",

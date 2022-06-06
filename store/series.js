@@ -460,6 +460,16 @@ export const state = () => ({
       release_date: new Date(2022, 5, 1),
       embed_link: 'https://www.youtube.com/embed/YxFTtVwrZGk',
     },
+    {
+      id: 34,
+      title: 'BUKA-BUKAAN SOAL INDUSTRI MUSIK INDONESIA | NST Talks Episode 18 | BAMS',
+      slug: 'talks-18',
+      categories: ['NST Talks'],
+      cover_image: '/talks/18.webp',
+      description: ``,
+      release_date: new Date(2022, 5, 2),
+      embed_link: 'https://www.youtube.com/embed/wopOwAd709c',
+    },
   ]
 })
 
