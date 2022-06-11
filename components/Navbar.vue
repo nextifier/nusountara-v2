@@ -108,6 +108,22 @@
               <div class="nav-dropdown-item">
                 <div class="nav-dropdown-icon smooth-corners sc-3">
                   <nuxt-link
+                    to="/room"
+                    class="nav-dropdown-icon-container bg-gradient-to-br from-yellow-500 to-yellow-600"
+                  >
+                    <IconRoomSolid class="h-6" />
+                  </nuxt-link>
+                </div>
+                <nuxt-link to="/room" class="nav-dropdown-link"
+                  >NST Room</nuxt-link
+                >
+              </div>
+            </li>
+
+            <li>
+              <div class="nav-dropdown-item">
+                <div class="nav-dropdown-icon smooth-corners sc-3">
+                  <nuxt-link
                     to="/destinations"
                     class="nav-dropdown-icon-container bg-gradient-to-br from-green-600 to-green-700"
                   >
@@ -240,6 +256,20 @@
             >
               <IconRadio class="nav-link-icon" />
               <span>NST Radio</span>
+            </nuxt-link>
+          </li>
+
+          <li
+            @click="closeModal('bottom-sheet-nav')"
+            class="bottom-sheet-nav-item"
+          >
+            <nuxt-link
+              to="/room"
+              @click.native="$scrollToTopIfCurrentPageIs('room')"
+              class="bottom-sheet-nav-link"
+            >
+              <IconRoom class="nav-link-icon" />
+              <span>NST Room</span>
             </nuxt-link>
           </li>
 
