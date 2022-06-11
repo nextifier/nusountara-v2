@@ -11,18 +11,16 @@
           <span>All series</span>
         </nuxt-link>
       </div>
-
       <h1
         class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
       >
-        <span>NST Destinations</span>
+        <span>NST Room</span>
         <span class="bg-primary h-2.5 w-5"></span>
       </h1>
 
-      <p class="mt-3">
-        Join us in our music expedition, as we explore and unhide destinations
-        and local talents throughout Indonesia.
-      </p>
+      <!-- <p class="mt-3">
+        
+      </p> -->
 
       <SeriesList :series="series" class="mt-6" />
     </div>
@@ -33,13 +31,13 @@
 export default {
   head() {
     return {
-      title: `NST Destinations – ${this.$config.appName}`,
+      title: `NST Room – ${this.$config.appName}`,
     };
   },
 
   data() {
     return {
-      series: this.$store.getters.getSeriesByCategory("NST Destinations"),
+      series: this.$store.getters.getSeriesByCategory("NST Room"),
     };
   },
 };

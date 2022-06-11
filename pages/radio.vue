@@ -1,6 +1,17 @@
 <template>
-  <div class="py-10 md:py-16 min-h-screen">
+  <div class="py-10 min-h-screen">
     <div class="container max-w-2xl mx-auto px-4">
+      <div class="flex">
+        <nuxt-link
+          to="/series"
+          class="font-bold px-5 py-4 rounded-lg bg-gray-900 text-xs sm:text-sm flex items-center gap-x-2 hover:bg-gray-800 transition-colors mb-10"
+          v-wave
+        >
+          <IconArrowLeft class="h-5" />
+          <span>All series</span>
+        </nuxt-link>
+      </div>
+
       <h1
         class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
       >

@@ -470,6 +470,39 @@ export const state = () => ({
       release_date: new Date(2022, 5, 2),
       embed_link: 'https://www.youtube.com/embed/wopOwAd709c',
     },
+    {
+      id: 35,
+      title: 'BEST MOMENT MUSIC TRANCE ERA 90an PECAH BRO! | NST Talks Episode 19 | ARDI PITE',
+      slug: 'talks-19',
+      categories: ['NST Talks'],
+      cover_image: '/talks/19.webp',
+      description: ``,
+      release_date: new Date(2022, 5, 9),
+      embed_link: 'https://www.youtube.com/embed/8g93Nssc-6c',
+    },
+    {
+      id: 36,
+      title: 'NST ROOM X HANNY LOREN feat DJ Leno',
+      slug: 'room-1',
+      categories: ['NST Room'],
+      cover_image: '/room/01.webp',
+      description: `
+        <p>Nusountara presents LENO REI!</p>
+        <p>Featuring Tattoo Artist Hanny Loren in NST Room and will be aired on @mixmagasia.</p>
+        <p>SUBSCRIBE and stay tuned with Nusountara</p>
+        <p>
+          <span>Video Credits</span><br/>
+          <span>DJ: Leno Rei</span><br/>
+          <span>Tattoo Artist: Hanny Loren</span><br/>
+          <span>Produced by: Nusountara</span><br/>
+          <span>Music Director: Ecilo</span><br/>
+          <span>DOP and Camera Team: Crist Tarigan</span><br/>
+          <span>Post House: MIA / Aigoo</span><br/>
+        </p>
+      `,
+      release_date: new Date(2022, 5, 11),
+      embed_link: 'https://www.youtube.com/embed/TYgfcu2qi-4',
+    },
   ]
 })
 

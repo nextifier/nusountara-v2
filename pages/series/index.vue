@@ -107,6 +107,11 @@ export default {
           series: this.$store.getters.getSeriesByCategoryWithLimit("NST Radio"),
         },
         {
+          title: "NST Room",
+          slug: "room",
+          series: this.$store.getters.getSeriesByCategoryWithLimit("NST Room"),
+        },
+        {
           title: "NST Destinations",
           slug: "destinations",
           description:

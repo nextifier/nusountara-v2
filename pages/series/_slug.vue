@@ -43,7 +43,10 @@
           </div>
         </div>
 
-        <div class="lg:col-span-4 px-4">
+        <div
+          v-if="recommendedSeries && recommendedSeries.length"
+          class="lg:col-span-4 px-4"
+        >
           <div class="font-bold tracking-tight text-white text-base">
             Recommended videos
           </div>
