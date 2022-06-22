@@ -503,6 +503,41 @@ export const state = () => ({
       release_date: new Date(2022, 5, 11),
       embed_link: 'https://www.youtube.com/embed/TYgfcu2qi-4',
     },
+    {
+      id: 37,
+      title: 'MURID JEFF MILLS SUKSES TEMBUS KE MARKET INTERNATIONAL | NST Talks Episode 20 | ECILO',
+      slug: 'talks-20',
+      categories: ['NST Talks'],
+      cover_image: '/talks/20.webp',
+      description: ``,
+      release_date: new Date(2022, 5, 16),
+      embed_link: 'https://www.youtube.com/embed/J3OcXWBKRcg',
+    },
+    {
+      id: 38,
+      title: 'NST Radio Present TANTRA from Indonesia | Vol. 9',
+      slug: 'nst-radio-present-tantra-from-indonesia',
+      cover_image: '/radio/vol-9.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>TANTRA @tantra_official<br />Instagram: <a href="https://www.instagram.com/tantra_official">https://www.instagram.com/tantra_official</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Tokyo Express ( Original Mix ) - Black Mami</li>
+        <li>Alternating Currents (Original Mix) - Eleven of July</li>
+        <li>Warcall (Joran Van Pol Remix) - Russell (IE)</li>
+        <li>6581 (Datametrik Remix) - Clawz SG</li>
+        <li>Resoflash (Original Mix) - Carlo Ruetz</li>
+        <li>Bipolar Star (Victor Ruiz Remix) - Olivier Giacomotto</li>
+        <li>Midi Express (Kaiserdisco Remix) - Torsten Kanzler</li>
+        <li>Eclipse (Original Mix) - Ryan Hill</li>
+        <li>Synchronicity (Original Mix) - Nocow</li>
+        <li>C.I.A. (Original Mix) - Kiko , Thomas Gandey</li>
+      </ul>
+        `,
+      release_date: new Date(2022, 5, 22),
+      embed_link: 'https://www.youtube.com/embed/LxXVTB-BYr4',
+    },
   ]
 })
 
