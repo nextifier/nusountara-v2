@@ -538,6 +538,16 @@ export const state = () => ({
       release_date: new Date(2022, 5, 22),
       embed_link: 'https://www.youtube.com/embed/LxXVTB-BYr4',
     },
+    {
+      id: 39,
+      title: 'EITARO NONAKA RAPPER GEMBEL NAIK KELAS!! | NST Talk Episode 21 | Eitaro',
+      slug: 'talks-21',
+      categories: ['NST Talks'],
+      cover_image: '/talks/21.webp',
+      description: ``,
+      release_date: new Date(2022, 5, 23),
+      embed_link: 'https://www.youtube.com/embed/QKrnBUveZIg',
+    },
   ]
 })
 
