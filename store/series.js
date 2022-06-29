@@ -548,6 +548,32 @@ export const state = () => ({
       release_date: new Date(2022, 5, 23),
       embed_link: 'https://www.youtube.com/embed/QKrnBUveZIg',
     },
+    {
+      id: 40,
+      title: 'NST Radio Present MARCEL from Indonesia | Vol. 10',
+      slug: 'nst-radio-present-marcel-from-indonesia',
+      cover_image: '/radio/vol-10.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>MARCEL @mclandhika<br />Instagram: <a href="https://www.instagram.com/mclandhika">https://www.instagram.com/mclandhika</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Differently (Original Mix) - Stefano Crabuzza</li>
+        <li>The Sun (Original Mix) - Dennis Cruz, DJ Chus</li>
+        <li>Adelante (Original Mix) - Space Motion</li>
+        <li>Zounzpaze (Dirty Doering Remix) - Betoko</li>
+        <li>Aegean (Original Mix) - Lunar Plane</li>
+        <li>Living With Lies - Anorre</li>
+        <li>Billennium (Original Mix) - Pavel Petrov</li>
+        <li>Your Rain (Artaria Remix) - Evelynka & Jean Vayat</li>
+        <li>Bomberman - Devochka</li>
+        <li>Back to the Start (Original Mix) - Bizen Lopez</li>
+        <li>Shimmer (Original Mix) - Groovetique & Prove Them Wrong</li>
+      </ul>
+        `,
+      release_date: new Date(2022, 5, 29),
+      embed_link: 'https://www.youtube.com/embed/H5oyJch-yJ4',
+    },
   ]
 })
 
