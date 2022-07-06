@@ -574,6 +574,37 @@ export const state = () => ({
       release_date: new Date(2022, 5, 29),
       embed_link: 'https://www.youtube.com/embed/H5oyJch-yJ4',
     },
+    {
+      id: 41,
+      title: 'SUMANTRI PRODUSER PERTAMA INDONESIA | NST Talks Episode 22 | Sumantri',
+      slug: 'talks-22',
+      categories: ['NST Talks'],
+      cover_image: '/talks/22.webp',
+      description: ``,
+      release_date: new Date(2022, 6, 1),
+      embed_link: 'https://www.youtube.com/embed/Cz36UQODXUM',
+    },
+    {
+      id: 42,
+      title: 'NST Radio Present ALTARTICA from Indonesia | Vol. 11',
+      slug: 'nst-radio-present-altartica-from-indonesia',
+      cover_image: '/radio/vol-11.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>ALTARTICA @altartica_<br />Instagram: <a href="https://www.instagram.com/altartica_">https://www.instagram.com/altartica_</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Ørjan Nilsen - La guitarra</li>
+        <li>Daxson - 7th Dimension</li>
+        <li>SMR LVE - Roxanne Emery - Let the light in (Ronski Speed & Harshil Kamdhar Remix)</li>
+        <li>NG Resonance - Resilience</li>
+        <li>Spirit of Nation - PHD</li>
+        <li>Thomas Llyod - Time for Acid</li>
+      </ul>
+        `,
+      release_date: new Date(2022, 6, 6),
+      embed_link: 'https://www.youtube.com/embed/7Hjn64R6YPA',
+    },
   ]
 })
 
