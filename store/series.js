@@ -605,6 +605,46 @@ export const state = () => ({
       release_date: new Date(2022, 6, 6),
       embed_link: 'https://www.youtube.com/embed/7Hjn64R6YPA',
     },
+    {
+      id: 43,
+      title: 'REMY IRWAN PELOPOR TECHNO PERTAMA DI JAKARTA | NST Talk Episode 23 | DJ Remy',
+      slug: 'talks-23',
+      categories: ['NST Talks'],
+      cover_image: '/talks/23.webp',
+      description: ``,
+      release_date: new Date(2022, 6, 8),
+      embed_link: 'https://www.youtube.com/embed/9-JKJPW9hDM',
+    },
+    {
+      id: 44,
+      title: 'NST Radio Present NANDI from Indonesia | Vol. 12',
+      slug: 'nst-radio-present-nandi-from-indonesia',
+      cover_image: '/radio/vol-12.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>NANDI @anandiwp<br />Instagram: <a href="https://www.instagram.com/anandiwp">https://www.instagram.com/anandiwp</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Ash Lauryn - Dancin In the D</li>
+        <li>James Barnsley - Want To Be (Chez Damier Sexy Dub)</li>
+        <li>Tom Jay - Lost Tapes</li>
+        <li>dOP - I am Just A Man (Agnes Remix)</li>
+        <li>Nekes - I Feel</li>
+        <li>Nail - Burn U</li>
+        <li>Dominik Massaro - Coffee Break (Original Mix)</li>
+        <li>Toman - Everywhere I Go I'm Haunted By Jazz</li>
+        <li>Craig & Grant Gordon - Hash</li>
+        <li>Baldo - Spatial Delivery (Youandewan Remix)</li>
+        <li>Susumu Yokota - Blood Of The Angel (Ian Pooley Mix)</li>
+        <li>Wildchild - Jump To My Beat (Original Mix)</li>
+        <li>Iron Curtis - Lately</li>
+        <li>Dubbel Drop - Mighty Knight (Spencer Parker Works Harder Remix)</li>
+        <li>Palms Trax, Nonku Phiri - Petu (Masalo Remix)</li>
+      </ul>
+        `,
+      release_date: new Date(2022, 6, 13),
+      embed_link: 'https://www.youtube.com/embed/k9UWbqZ-2xk',
+    },
   ]
 })
 
