@@ -645,6 +645,28 @@ export const state = () => ({
       release_date: new Date(2022, 6, 13),
       embed_link: 'https://www.youtube.com/embed/k9UWbqZ-2xk',
     },
+    {
+      id: 45,
+      title: 'JEROME ISMA-AE DITOLAK MAIN DI ETV | NST Talk Episode 24 | Rulli Putra',
+      slug: 'talks-24',
+      categories: ['NST Talks'],
+      cover_image: '/talks/24.webp',
+      description: ``,
+      release_date: new Date(2022, 6, 15),
+      embed_link: 'https://www.youtube.com/embed/lBuP-5dVpo4',
+    },
+    {
+      id: 46,
+      title: 'NST Radio Present ECILO from Indonesia | Vol. 13',
+      slug: 'nst-radio-present-ecilo-from-indonesia',
+      cover_image: '/radio/vol-13.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>ECILO @ecilo_official<br />Instagram: <a href="https://www.instagram.com/ecilo_official">https://www.instagram.com/ecilo_official</a><br />Country: Indonesia</p>
+        `,
+      release_date: new Date(2022, 6, 20),
+      embed_link: 'https://www.youtube.com/embed/XJ8vDeB90-k',
+    },
   ]
 })
 
