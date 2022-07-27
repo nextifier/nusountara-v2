@@ -663,9 +663,79 @@ export const state = () => ({
       categories: ['NST Radio'],
       description: `
       <p>ECILO @ecilo_official<br />Instagram: <a href="https://www.instagram.com/ecilo_official">https://www.instagram.com/ecilo_official</a><br />Country: Indonesia</p>
-        `,
+      <span>Tracklist:</span>
+      <ul>
+        <li>Ecilo - Skyline (Unreleased Midnight Shift)</li>
+        <li>Ecilo - Ariane V (Unreleased)</li>
+        <li>Fadi Mohem & RodHad - 210407.2 </li>
+        <li>Planetary Assault System - Devotion (Truncate Mix)</li>
+        <li>Marcal - Never Wrote This</li>
+        <li>Stephen Disario - Time (Synthetik Unreleased)</li>
+        <li>Rene Wise - Tizer</li>
+        <li>Nastia Reigel - Not INT</li>
+        <li>Ecilo - Supreme Comrades (Unreleased Muted Rec)</li>
+        <li>Ecilo - Under The Loop (Unreleased Muted Rec)</li>
+        <li>Rove Ranger - Vodoo</li>
+        <li>Vil & Cravo -1ST</li>
+        <li>Morven - Twisted</li>
+        <li>Cetan - Underground</li>
+        <li>Vladimir Dubyshkin - I Decided To Fly </li>
+        <li>Vinicius Honorio - Vibrations </li>
+        <li>Marco Lenzi - Taboo (Exos Remix Unreleased)</li>
+        <li>Chontane - Chrome Foil</li>
+        <li>Lars Huisman - Sounds From The Pass</li>
+        <li>Ecilo - Ursa Mayor (Unreleased)</li>
+        <li>Arjun Vagale - Function 88</li>
+        <li>Oskar Knickelbein - Pura Dalem (Underradar Unreleased)</li>
+        <li>Slone - Blessing </li>
+        <li>Krenzlin - Just No Reason </li>
+        <li>Kashpitzky - Forgot Your Name </li>
+        <li>Blue Hour - Flashback </li>
+      </ul>  
+      `,
       release_date: new Date(2022, 6, 20),
       embed_link: 'https://www.youtube.com/embed/XJ8vDeB90-k',
+    },
+    {
+      id: 47,
+      title: 'BATAVIA COLLECTIVE MENCIPTAKAN SUB-GENRE BARU | NST Talk Episode 25 | Batavia Collective',
+      slug: 'talks-25',
+      categories: ['NST Talks'],
+      cover_image: '/talks/25.webp',
+      description: ``,
+      release_date: new Date(2022, 6, 21),
+      embed_link: 'https://www.youtube.com/embed/R-9d3aahzvY',
+    },
+    {
+      id: 48,
+      title: 'NST Radio Present ASAM from Indonesia | Vol. 14',
+      slug: 'nst-radio-present-asam-from-indonesia',
+      cover_image: '/radio/vol-14.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>ASAM @reaksiasam<br />Instagram: <a href="https://www.instagram.com/reaksiasam">https://www.instagram.com/reaksiasam</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Bernardus Fritz - Haunted Mansion Psycho Killer</li>
+        <li>Unhuman & Petra Flurr - Had Enough</li>
+        <li>ASAM - Operasi Negasi</li>
+        <li>B1980 - Synchrodestiny</li>
+        <li>Schwefelgelb - Um Meine Haut</li>
+        <li>Michel Amato - Physique</li>
+        <li>Teatre - Surrender</li>
+        <li>Nine Inch Nails - Metal</li>
+        <li>Phase Fatale - Reverse Fall</li>
+        <li>VT-00 - Sabotase (Fuzzy, I Remix)</li>
+        <li>Wax Wings - AF2TF</li>
+        <li>TV.OUT - Aurora Secrets</li>
+        <li>ASAM - Komando</li>
+        <li>PRZ - Wishmaker</li>
+        <li>Nitzer Ebb - Murderous (Phil Kieran Remix)</li>
+        <li>DAF - Als wär's das letzte Mal (Boys Noize Remix)</li>
+      </ul>  
+      `,
+      release_date: new Date(2022, 6, 27),
+      embed_link: 'https://www.youtube.com/embed/hcAjgCwmBOo',
     },
   ]
 })
