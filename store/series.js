@@ -730,7 +730,6 @@ export const state = () => ({
         <li>TV.OUT - Aurora Secrets</li>
         <li>ASAM - Komando</li>
         <li>PRZ - Wishmaker</li>
-        <li>Nitzer Ebb - Murderous (Phil Kieran Remix)</li>
         <li>DAF - Als wär's das letzte Mal (Boys Noize Remix)</li>
       </ul>  
       `,
