@@ -736,6 +736,48 @@ export const state = () => ({
       release_date: new Date(2022, 6, 27),
       embed_link: 'https://www.youtube.com/embed/hcAjgCwmBOo',
     },
+    {
+      id: 49,
+      title: 'NST Radio Present TORO from Indonesia | Vol. 15',
+      slug: 'nst-radio-present-toro-from-indonesia',
+      cover_image: '/radio/vol-15.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>TORO @torolaksana<br />Instagram: <a href="https://www.instagram.com/torolaksana">https://www.instagram.com/torolaksana</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Liberated - Danny Rabbit Remix</li>
+        <li>Hedström & Pflug - Tapir</li>
+        <li>Parano -  Rotary Thought</li>
+        <li>Rene Wise - Raptor</li>
+        <li>Headstrong Der Schrei</li>
+        <li>Ruben Ganev -  Quantum</li>
+        <li>Fairus  - Marcal Remix</li>
+        <li>Flug - Ar 01</li>
+        <li>Evigt Mörker - Den väldige [NE81]</li>
+        <li>Carnival Part 1 (Shlomi Aber Remix)</li>
+        <li>Rene wise - swamp dancer</li>
+        <li>Headstrom - Light Attraction</li>
+        <li>Hydro2</li>
+        <li>Rene Wise - Speeding</li>
+        <li>Vicious Honorio  Heartbeat (marcal remix)</li>
+        <li>Halving - (Marcal Remix)</li>
+        <li>Yant - Contravention</li>
+        <li>Yant - Encode The Stick</li>
+        <li>STX03</li>
+        <li>Coincidences</li>
+        <li>Behind The moves</li>
+        <li>Unstoppable</li>
+        <li>Dear Phase Two</li>
+        <li>Grindvk Before we run</li>
+        <li>Regent - Embeded in Our fabrics</li>
+        <li>Keith Carnal - Ape Shit Crazy </li>
+        <li>Ecilo Tenzella - Yen</li>
+      </ul>  
+      `,
+      release_date: new Date(2022, 8, 1),
+      embed_link: 'https://www.youtube.com/embed/kssMP--kRgU',
+    },
   ]
 })
 
