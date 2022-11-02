@@ -778,6 +778,39 @@ export const state = () => ({
       release_date: new Date(2022, 8, 1),
       embed_link: 'https://www.youtube.com/embed/kssMP--kRgU',
     },
+    {
+      id: 50,
+      title: 'NST Radio Present ØH from Indonesia | Vol. 16',
+      slug: 'nst-radio-present-oh-from-indonesia',
+      cover_image: '/radio/vol-16.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>ØH @asapnabi<br />Instagram: <a href="https://www.instagram.com/asapnabi">https://www.instagram.com/asapnabi</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Donald’s House - Everything is Fine</li>
+        <li>Guy Contact - There is No Orb</li>
+        <li>Abdul Raeva - Breakspesh</li>
+        <li>M-High - Voids</li>
+        <li>Stussko - Brothers & Sisters</li>
+        <li>North Phase - Feel It</li>
+        <li>Kolter - Ghost In The Breaks</li>
+        <li>Atree - Cowgirl Funk</li>
+        <li>Donnie Cosmo - Cosmic Blue</li>
+        <li>Gene on Earth - Pistachio Day</li>
+        <li>Nelson of The East - Elipsis</li>
+        <li>Stones Taro - Magma Diver</li>
+        <li>Bliss Inc. - Untitled 131</li>
+        <li>Fabe - Call From Naples</li>
+        <li>Stones Taro - Come Over</li>
+        <li>Rodriguez Jr. - Haussmann</li>
+        <li>Djoko - Totally Lost Focus</li>
+        <li>Axel Boman - Radionova</li>
+      </ul>  
+      `,
+      release_date: new Date(2022, 10, 2),
+      embed_link: 'https://www.youtube.com/embed/D_nRVrnl_yg',
+    },
   ]
 })
 
