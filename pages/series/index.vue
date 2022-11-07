@@ -12,7 +12,7 @@
           <p class="mt-2">{{ category.description }}</p>
         </div>
 
-        <div class="container">
+        <div class="sm:container">
           <div
             v-swiper="swiperOption"
             :instance-name="category.slug"
