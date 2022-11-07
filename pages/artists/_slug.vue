@@ -239,7 +239,7 @@
       </div>
     </div>
 
-    <div v-if="playlist" class="container mx-auto px-4 mt-16 md:mt-32">
+    <div v-if="playlist" class="container mt-16 md:mt-32">
       <Playlist :playlist="playlist" />
     </div>
 

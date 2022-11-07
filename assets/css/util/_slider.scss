@@ -40,30 +40,50 @@
   }
 }
 
-.swiper-slide.slide-px {
-  @apply w-4;
+.slide-px {
+  @apply flex-shrink-0;
+  width: theme("container.padding[DEFAULT]");
 
   @screen xs {
-    width: calc((100% - theme("screens[xs]")) / 2);
+    width: calc(
+      (100% - (theme("screens[xs]") - theme("container.padding[DEFAULT]") * 2)) /
+        2
+    );
   }
 
   @screen sm {
-    width: calc((100% - theme("screens[sm]")) / 2);
+    width: calc(
+      (100% - (theme("screens[sm]") - theme("container.padding[sm]") * 2)) / 2
+    );
   }
 
   @screen md {
-    width: calc((100% - theme("screens[md]")) / 2);
+    width: calc(
+      (100% - (theme("screens[md]") - theme("container.padding[md]") * 2)) / 2
+    );
   }
 
   @screen lg {
-    width: calc((100% - theme("screens[lg]")) / 2);
+    width: calc(
+      (100% - (theme("screens[lg]") - theme("container.padding[lg]") * 2)) / 2
+    );
   }
 
   @screen xl {
-    width: calc((100% - theme("screens[xl]")) / 2);
+    width: calc(
+      (100% - (theme("screens[xl]") - theme("container.padding[xl]") * 2)) / 2
+    );
   }
 
   @screen 2xl {
-    width: calc((100% - theme("screens[2xl]")) / 2);
+    width: calc(
+      (100% - (theme("screens[2xl]") - theme("container.padding[2xl]") * 2)) / 2
+    );
+  }
+
+  @screen 3xl {
+    width: calc(
+      (100% - (theme("screens[3xl]") - theme("container.padding[3xl]") * 2)) / 2
+    );
   }
 }

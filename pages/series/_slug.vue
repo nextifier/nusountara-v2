@@ -1,6 +1,6 @@
 <template>
   <div class="lg:pt-10 pb-32">
-    <div class="container xl:max-w-7xl mx-auto">
+    <div class="sm:container mx-auto">
       <div class="grid grid-cols-1 gap-8 2xl:gap-12 lg:grid-cols-12">
         <div class="lg:col-span-8">
           <iframe

@@ -1,6 +1,6 @@
 <template>
   <footer class="pb-24 lg:pb-6">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto">
       <div
         class="grid grid-cols-2 md:grid-cols-12 gap-x-4 lg:gap-x-8 gap-y-16 py-24 md:py-32"
       >

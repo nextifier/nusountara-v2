@@ -12,7 +12,24 @@ module.exports = {
   theme: {
     screens: {
       xs: '540px',
-      ...defaultTheme.screens
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1500px',
+      '3xl': '1800px',
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        md: '3rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+        '3xl': '7rem',
+      },
     },
     extend: {
       fontFamily: {

@@ -2,7 +2,7 @@
   <section
     v-if="$store.state.banners.list"
     id="banners"
-    class="container mx-auto px-1.5 py-10 md:py-16"
+    class="container px-1.5 py-10 md:py-16"
   >
     <div class="swiper-container w-full">
       <div v-swiper="swiperOption" instance-name="banners" class="group !py-10">

@@ -2,7 +2,7 @@
   <div class="py-4 md:py-8">
     <BackFloatingButton />
 
-    <div class="container max-w-md mx-auto px-4 flex flex-col">
+    <div class="container max-w-2xl mx-auto flex flex-col">
       <img
         :src="require(`~/assets/img/tracks/${track.cover_image}`)"
         :alt="track.title"

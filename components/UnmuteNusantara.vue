@@ -7,7 +7,7 @@
           class="w-full scale-150 md:scale-125 xl:scale-100"
         />
       </div>
-      <div class="container mx-auto px-1 relative z-10">
+      <div class="container px-1 relative z-10">
         <div
           class="w-3/4 xs:max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-3xl mx-auto relative z-0"
         >

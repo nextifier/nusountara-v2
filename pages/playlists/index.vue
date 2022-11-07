@@ -9,7 +9,7 @@
         class="swiper-container w-full mb-16 md:mb-24"
       >
         <div
-          class="container mx-auto px-4 mb-4 sm:mb-6 flex items-end justify-between gap-x-3"
+          class="container mb-4 sm:mb-6 flex items-end justify-between gap-x-3"
         >
           <div class="flex items-center gap-x-3 lg:gap-x-6">
             <div class="smooth-corners sc-4">

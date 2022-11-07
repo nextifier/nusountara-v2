@@ -13,7 +13,7 @@
     </div>
 
     <div
-      class="relative z-10 min-h-[calc(100vh-64px)] lg:min-h-[calc(100vh-80px)] container max-w-4xl mx-auto px-4 flex flex-col items-center justify-center py-12"
+      class="relative z-10 min-h-[calc(100vh-64px)] lg:min-h-[calc(100vh-80px)] container max-w-4xl mx-auto flex flex-col items-center justify-center py-12"
     >
       <div class="flex flex-col items-center text-center -mt-16">
         <h1 class="text-white tracking-tight text-4xl md:text-6xl">

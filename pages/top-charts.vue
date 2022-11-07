@@ -1,6 +1,6 @@
 <template>
   <div class="py-10 md:py-16">
-    <div class="container max-w-md mx-auto px-4">
+    <div class="container max-w-2xl mx-auto">
       <h1
         class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
       >

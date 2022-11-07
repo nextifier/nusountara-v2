@@ -1,6 +1,6 @@
 <template>
   <div class="pt-10 md:pt-16 pb-32">
-    <div class="container mx-auto px-4">
+    <div class="container">
       <Playlist :playlist="playlist" />
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="py-10 min-h-screen">
-    <div class="container max-w-2xl mx-auto px-4">
+    <div class="container max-w-2xl">
       <div class="flex">
         <nuxt-link
           to="/series"

@@ -1,6 +1,6 @@
 <template>
   <div class="lg:pt-10 pb-32">
-    <div class="container mx-auto">
+    <div class="sm:container">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-8 gap-x-16">
         <div class="lg:col-span-6 lg:pl-4">
           <div
@@ -17,7 +17,7 @@
               >
                 <img
                   :src="require(`~/assets/img/events${image}`)"
-                  class="w-full aspect-video object-cover lg:rounded-2xl"
+                  class="w-full aspect-[4/5] object-contain lg:rounded-2xl"
                   loading="lazy"
                 />
               </div>
@@ -59,14 +59,28 @@
 
         <div class="lg:col-span-6 px-4 lg:pl-0">
           <div class="flex flex-col items-start lg:pt-8">
-            <span
-              class="px-3 py-2 rounded-lg bg-black text-white font-bold uppercase text-xs sm:text-sm"
-              :class="{
-                'bg-emerald-600': event.status.toLowerCase() == 'upcoming',
-                'bg-rose-600': event.status.toLowerCase() == 'passed',
-              }"
-              >{{ event.status }}</span
+            <div
+              class="flex items-center gap-x-2 px-4 py-4 rounded-full bg-gray-900 text-white text-xs sm:text-sm"
             >
+              <span class="flex h-3 w-3 relative">
+                <span
+                  class="animate-ping-slow absolute inline-flex h-full w-full rounded-full opacity-75"
+                  :class="{
+                    'bg-green-400': event.status.toLowerCase() == 'upcoming',
+                    'bg-rose-500': event.status.toLowerCase() == 'passed',
+                  }"
+                ></span>
+                <span
+                  class="relative inline-flex rounded-full h-3 w-3"
+                  :class="{
+                    'bg-green-600': event.status.toLowerCase() == 'upcoming',
+                    'bg-rose-600': event.status.toLowerCase() == 'passed',
+                  }"
+                ></span>
+              </span>
+              <span class="uppercase">{{ event.status }}</span>
+            </div>
+
             <div
               class="font-bold text-white text-xl lg:text-3xl xl:text-4xl mt-3 flex items-center gap-x-1"
             >
@@ -75,11 +89,6 @@
 
             <div class="flex flex-col gap-y-3 mt-4">
               <div class="flex items-center gap-x-3">
-                <IconLocation class="h-5 sm:h-6" />
-                <span>{{ event.location }}</span>
-              </div>
-
-              <div class="flex items-center gap-x-3">
                 <IconCalendar class="h-5 sm:h-6" />
                 <span>{{ event.date }}</span>
               </div>
@@ -87,6 +96,11 @@
               <div v-if="event.time" class="flex items-center gap-x-3">
                 <IconTime class="h-5 sm:h-6" />
                 <span>{{ event.time }}</span>
+              </div>
+
+              <div class="flex items-center gap-x-3">
+                <IconLocation class="h-5 sm:h-6" />
+                <span>{{ event.location }}</span>
               </div>
 
               <div v-if="event.description" class="mt-8 flex flex-col gap-y-2">
@@ -101,7 +115,7 @@
                 v-if="event.status.toLowerCase() == 'upcoming'"
                 class="fixed bottom-0 inset-x-0 bg-black/80 backdrop-blur-lg border-t border-gray-700"
               >
-                <div class="container mx-auto px-4">
+                <div class="container">
                   <div
                     class="max-w-md ml-auto py-2 flex items-center justify-between"
                   >

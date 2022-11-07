@@ -214,11 +214,11 @@
           </div>
           <a
             @click.prevent="openModal('bottom-sheet-nav')"
-            class="cursor-pointer lg:hidden flex-shrink-0 w-10 h-10 rounded-xl flex flex-col justify-center items-center"
+            class="cursor-pointer lg:hidden flex-shrink-0 w-12 h-12 rounded-xl flex flex-col justify-center items-center"
             v-wave
           >
-            <span class="h-px rounded-full bg-white w-6 -translate-y-1"></span>
-            <span class="h-px rounded-full bg-white w-6 translate-y-1"></span>
+            <span class="h-px rounded-full bg-white w-8 -translate-y-1"></span>
+            <span class="h-px rounded-full bg-white w-8 translate-y-1"></span>
           </a>
         </div>
       </div>

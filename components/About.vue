@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <div class="container max-w-7xl mx-auto px-4">
+    <div class="container max-w-7xl mx-auto">
       <div
         class="swiper-container w-full rotate-[-4deg] lg:rotate-0 scale-125 lg:scale-100"
       >

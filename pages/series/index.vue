@@ -1,8 +1,8 @@
 <template>
-  <div class="py-10 md:py-16 xl:max-w-4xl xl:mx-auto">
+  <div class="py-10 md:py-16 xl:max-w-5xl xl:mx-auto">
     <div class="flex flex-col gap-y-16">
       <div v-for="(category, index) in categories" :key="index">
-        <div class="container mx-auto px-4 sm:px-0">
+        <div class="container">
           <h2
             class="text-white font-bold tracking-tight text-3xl md:text-4xl flex items-baseline gap-x-2"
           >
@@ -12,7 +12,7 @@
           <p class="mt-2">{{ category.description }}</p>
         </div>
 
-        <div class="swiper-container">
+        <div class="container">
           <div
             v-swiper="swiperOption"
             :instance-name="category.slug"
@@ -64,7 +64,7 @@
           </div>
         </div>
 
-        <div class="container mx-auto px-4 sm:px-0 mt-6 md:mt-8">
+        <div class="container mt-6 md:mt-8">
           <div class="flex">
             <nuxt-link
               :to="`/${category.slug}`"

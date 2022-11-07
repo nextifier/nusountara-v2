@@ -1,6 +1,6 @@
 <template>
   <div class="pt-10 md:pt-16 pb-32">
-    <div class="container mx-auto max-w-xl px-4">
+    <div class="container mx-auto max-w-2xl">
       <BackFloatingButton />
 
       <div class="showed-post">
