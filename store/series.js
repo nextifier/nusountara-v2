@@ -811,6 +811,19 @@ export const state = () => ({
       release_date: new Date(2022, 10, 2),
       embed_link: 'https://www.youtube.com/embed/D_nRVrnl_yg',
     },
+    {
+      id: 51,
+      title: 'WHY HOUSE MUSIC ? | Selective Talk with JOSH BUTLER, NANDI & DHIKA | #1',
+      slug: 'wny-house-music-selective-talk-with-josh-butler-nandi-dhika-episode-1',
+      cover_image: '/selective-talk/01.webp',
+      categories: ['Selective Talk'],
+      description: `
+        <p>SELECTIVE TALK is a podcast series by Selective (Club Night Series). We talk about almost anything that evolves around the World of Music. In this particular series, we discussed in depth about House Music. Our headliner for this event is Josh Butler, who is well known as one of house music's most revered talents.</p>
+        <p>Together with Dhika (Rawspace), Nandi (House Cartel), Jakarta based DJs who also supports Josh Butler for the event. Hosted by Marcel from Nusountara, we discussed about how we can develop the local scene in the future and the importance of keeping your music/sound fresh and different on the music production side. It's an interesting talk for sure!</p>
+      `,
+      release_date: new Date(2022, 11, 15),
+      embed_link: 'https://www.youtube.com/embed/ebZ9OAABrH8',
+    },
   ]
 })
 

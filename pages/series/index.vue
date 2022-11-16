@@ -107,6 +107,14 @@ export default {
           series: this.$store.getters.getSeriesByCategoryWithLimit("NST Radio"),
         },
         {
+          title: "Selective Talk",
+          slug: "selective-talk",
+          description:
+            "SELECTIVE TALK is a podcast series by Selective (Club Night Series). We talk about almost anything that evolves around the World of Music. ",
+          series:
+            this.$store.getters.getSeriesByCategoryWithLimit("Selective Talk"),
+        },
+        {
           title: "NST Room",
           slug: "room",
           series: this.$store.getters.getSeriesByCategoryWithLimit("NST Room"),
