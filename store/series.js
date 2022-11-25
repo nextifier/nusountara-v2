@@ -824,6 +824,41 @@ export const state = () => ({
       release_date: new Date(2022, 10, 15),
       embed_link: 'https://www.youtube.com/embed/ebZ9OAABrH8',
     },
+    {
+      id: 52,
+      title: 'NST Radio Present Reno Renatama from Indonesia | Vol. 17',
+      slug: 'nst-radio-present-reno-renatama-from-indonesia',
+      cover_image: '/radio/vol-17.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>Reno @renorenatama<br />Instagram: <a href="https://www.instagram.com/renorenatama">https://www.instagram.com/renorenatama</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Elysium (Reno Renatama Remix) - Raysoo, Reno Renatama</li>
+        <li>Behind The Sun (Reno Renatama Remix) - Rulli, Reno Renatama</li>
+        <li>Transmission (Original Mix) - eb_flow</li>
+        <li>Unrelease - Reno Renatama</li>
+        <li>Unrelease - Reno Renatama</li>
+        <li>Unrelease - Reno Renatama</li>
+        <li>Not Easy (Original Mix) - Detlef, Niteplan</li>
+        <li>Law of Closure (Extended  Mix) - Reno Renatama</li>
+        <li>Massacre (Reno Renatama Remix) - Cyda, Reno Renatama</li>
+        <li>Starburst (Original Mix) - Dimitri Monev</li>
+        <li>Halimunan (Reno Renatama Remix) - Reno Renatama, Ody Dozz</li>
+        <li>Unrelease - Reno Renatama</li>
+        <li>Hold Your Wig - Diskop</li>
+        <li>Man From Dizzyland (Original Mix) - Reno Renatama</li>
+        <li>Breakfast with You at Venus - Reno Renatama</li>
+        <li>Dreaming of You (Che Armstrong Remix) - Biologik</li>
+        <li>Aire (Reno Renatama Remix) - Gaston Cabrera, Reno Renatama</li>
+        <li>Heart On The Line (Bassline Mix) - Fortran 5</li>
+        <li>Zularic Tree - Guy From Downstairs, Faster</li>
+        <li>Just Can't Get Enough (Reno Renatama Remix) - Joey G, RaySoo, Reno Renatama</li>
+      </ul>  
+      `,
+      release_date: new Date(2022, 10, 23),
+      embed_link: 'https://www.youtube.com/embed/ADs0wYSmM4w',
+    },
   ]
 })
 
