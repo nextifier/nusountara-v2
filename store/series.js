@@ -859,6 +859,40 @@ export const state = () => ({
       release_date: new Date(2022, 10, 23),
       embed_link: 'https://www.youtube.com/embed/ADs0wYSmM4w',
     },
+    {
+      id: 53,
+      title: 'NST Radio Present Mahaputra from Indonesia | Vol. 18',
+      slug: 'nst-radio-present-mahaputra-from-indonesia',
+      cover_image: '/radio/vol-18.webp',
+      categories: ['NST Radio'],
+      description: `
+      <p>Mahaputra @mahaputra_jong<br />Instagram: <a href="https://www.instagram.com/mahaputra_jong">https://www.instagram.com/mahaputra_jong</a><br />Country: Indonesia</p>
+      <span>Tracklist:</span>
+      <ul>
+        <li>Supermode - Tell Me Why (Meduza Remix) [Axtone Records]</li>
+        <li>Danilo Ercole - Controle (AG10 Remix) [Addictive Sounds]</li>
+        <li>Sunlight Project vs. Justin Bieber - Ghost For Me (Mahaputra Mashup) [White]</li>
+        <li>Kataploks - Weightless Love (Extended Mix) [Elpida Music]</li>
+        <li>LTN & Marquee vs. Gareth Emery & Christina Novelli - Sort Concrete Angel (Mahaputra Mashup) [White]</li>
+        <li>Ben McConnell - In The Darkness [Addictive Sounds] </li>
+        <li>Denis Airwave - Raindrops [2Rock Recordings]</li>
+        <li>Above & Beyond vs. Shouse - Projection vs. Love Tonight (Mahaputra Mashup) [White]</li>
+        <li>Vladislav Maximov - Airbreath (Nioz Remix) [Addictive Sounds] </li>
+        <li>F4T4L3RR0R - Nova (Vladislav Maximov Remix) [Addictive Sounds] </li>
+        <li>Mike Sanders vs. Armin van Buuren pres. Rising Star & Justine Suissa - Burned With Winden (Mahaputra Mashup) [White]</li>
+        <li>Chris Schweizer - Lithium [Who's Afraid Of 138?!]</li>
+        <li>Heatbeat - Feel Alive [Who’s Afraid Of 138?1]</li>
+        <li>James Dymond & Chris Schweizer - Spectrum [FSOE]</li>
+        <li>Mark Young & Derek Jones vs Fragma vs Inpetto - Toca's Hazard (Mahaputra Mashup) [White]</li>
+        <li>Dalmoori & RillLua with Euphoric Heart - Wheel of Fortune [Trance Reserve Music]</li>
+        <li>Mike Van Fabio & Füzzy - Igniter (Lost Without Fire) [Abora Recordings] </li>
+        <li>Lost Witness & Osa Blu - Falling [Lifting Force Music]</li>
+        <li>Apollo, Ben Nicky - Dance [Xploded Music Limited]</li>      
+      </ul>  
+      `,
+      release_date: new Date(2022, 10, 30),
+      embed_link: 'https://www.youtube.com/embed/9awxwqevXhM',
+    },
   ]
 })
 
